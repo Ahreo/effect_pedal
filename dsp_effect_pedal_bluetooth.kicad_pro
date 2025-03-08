@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -578,6 +578,14 @@
     [
       "771c2b9e-122f-4f65-bca1-3450fca5e8ad",
       "Root"
+    ],
+    [
+      "9cbb7c5e-b1fd-4855-8abd-313851d84b1e",
+      "esp32"
+    ],
+    [
+      "154abc53-5f6b-42ab-83f1-df9e28bd1935",
+      "analog_signal_processing"
     ]
   ],
   "text_variables": {}

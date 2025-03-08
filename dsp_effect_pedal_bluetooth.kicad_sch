@@ -5,375 +5,6 @@
 	(uuid "771c2b9e-122f-4f65-bca1-3450fca5e8ad")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Audio:PT2399"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PT2399"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.princeton.com.tw/Portals/0/Product/PT2399_1.pdf"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Echo Processor IC, DIP-16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "CMOS ADC DAC 44K Digital processing VCO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PT2399_0_1"
-				(rectangle
-					(start -10.16 15.24)
-					(end 10.16 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "PT2399_1_1"
-				(pin power_in line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "OP1-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "OP2-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "OP2-OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "LPF2-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "LPF2-OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "LPF1-OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "LPF1-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "REF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "CLK_O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "VCO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -12.7 0)
-					(length 2.54)
-					(name "CC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "OP1-OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_24P"
 			(pin_names
 				(offset 1.016)
@@ -1044,32 +675,34 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1086,7 +719,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1095,7 +728,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1104,7 +737,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1113,12 +746,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -1126,10 +772,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "C_1_1"
 				(pin passive line
 					(at 0 3.81 270)
-					(length 1.27)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
@@ -1147,8 +793,165 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 1.27)
+					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1294,961 +1097,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MCU_Module:Adafruit_Feather_HUZZAH32_ESP32"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "A"
-				(at -10.16 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Adafruit_Feather_HUZZAH32_ESP32"
-				(at 2.54 -31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Module:Adafruit_Feather"
-				(at 2.54 -34.29 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah32-esp32-feather.pdf"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Microcontroller module with ESP32 MCU"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Adafruit feather microcontroller module USB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Adafruit*Feather*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Adafruit_Feather_HUZZAH32_ESP32_0_1"
-				(rectangle
-					(start -10.16 27.94)
-					(end 10.16 -30.48)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Adafruit_Feather_HUZZAH32_ESP32_1_1"
-				(pin input line
-					(at 12.7 20.32 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "IO4/A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "SCK/IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "MOSI/IO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "MISO/IO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -12.7 0)
-					(length 2.54)
-					(name "RX/IO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -15.24 0)
-					(length 2.54)
-					(name "TX/IO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -20.32 0)
-					(length 2.54)
-					(name "SDA/IO23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -22.86 0)
-					(length 2.54)
-					(name "SCL/IO22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 20.32 0)
-					(length 2.54)
-					(name "A6/IO14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 30.48 270)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 17.78 0)
-					(length 2.54)
-					(name "A7/IO32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 15.24 0)
-					(length 2.54)
-					(name "A8/IO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "A9/IO33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "A10/IO27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "A11/IO12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "A12/IO13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 30.48 270)
-					(length 2.54)
-					(name "USB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 30.48 270)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 10.16 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -33.02 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "DAC2/A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "DAC1/A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "I34/A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "I39/A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "IO36/A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_4ms_Capacitor:100nF_0603_16V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100nF_0603_16V"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "4ms_Capacitor:C_0603"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "AVX Corporation"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "0603YC104KAT2A"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "0.1uF"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB ID" "C14663"
-				(at 1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "100nF_0603_16V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "100nF_0603_16V_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "100nF_0603_16V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_4ms_Capacitor:22uF_1206_25V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "22uF_1206_25V"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "4ms_Capacitor:C_1206"
-				(at -2.54 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Taiyo Yuden"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "TMK316BBJ226ML-T"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "22uF/25V"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "JLCPCB ID" "C12891"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "22uF_1206_25V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "22uF_1206_25V_1_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2968,889 +1816,6 @@
 				)
 			)
 		)
-		(symbol "dk_Fixed-Inductors:82103C"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -3.175 3.175 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "82103C"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "digikey-footprints:1206"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "FIXED IND 10UH 500MA 400 MOHM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "811-2473-1-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "82103C"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Inductors, Coils, Chokes"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "Fixed Inductors"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/murata-power-solutions-inc/82103C/811-2473-1-ND/3178544"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "FIXED IND 10UH 500MA 400 MOHM"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata Power Solutions Inc."
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "811-2473-1-ND 8200"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "82103C_0_1"
-				(arc
-					(start -3.556 0)
-					(mid -2.1694 -0.8461)
-					(end -1.1938 0.4318)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.2098 0.508)
-					(mid -2.0918 -0.2848)
-					(end -1.4478 -0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.4732 -0.762)
-					(mid -0.4347 -0.6489)
-					(end 0.0508 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.1938 0.254)
-					(mid -1.5764 0.8583)
-					(end -2.2098 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.9398 0.508)
-					(mid -0.8218 -0.2848)
-					(end -0.1778 -0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.2032 -0.762)
-					(mid 0.8353 -0.6489)
-					(end 1.3208 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.0762 0.254)
-					(mid -0.3064 0.8583)
-					(end -0.9398 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.3302 0.508)
-					(mid 0.4482 -0.2848)
-					(end 1.0922 -0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.0668 -0.762)
-					(mid 2.1053 -0.6489)
-					(end 2.5908 0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.3462 0.254)
-					(mid 0.9636 0.8583)
-					(end 0.3302 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.5748 0.4318)
-					(mid 2.3727 -0.7843)
-					(end 3.5814 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.6162 0.254)
-					(mid 2.2336 0.8583)
-					(end 1.6002 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "82103C_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 1.4986)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.4986)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps:TL072IP"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TL072IP"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "digikey-footprints:DIP-8_W7.62mm"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC OPAMP JFET 2 CIRCUIT 8DIP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "296-14997-5-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TL072IP"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Integrated Circuits (ICs)"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/texas-instruments/TL072IP/296-14997-5-ND/563039"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "IC OPAMP JFET 2 CIRCUIT 8DIP"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "296-14997-5-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL072IP_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.905) (xy -3.175 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TL072IP_1_0"
-				(text "A"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-			)
-			(symbol "TL072IP_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "VCC-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "VCC+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072IP_2_0"
-				(text "B"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-			)
-			(symbol "TL072IP_2_1"
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "VCC-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "VCC+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+9V"
 			(power)
 			(pin_numbers hide)
@@ -4069,18 +2034,6 @@
 		)
 	)
 	(junction
-		(at 38.1 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "015b4930-ca0c-4f4b-a8fc-c2ea1e0dd4c3")
-	)
-	(junction
-		(at 64.77 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1852a689-6047-4625-bbb5-03fd20d8f10e")
-	)
-	(junction
 		(at 260.35 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4097,12 +2050,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a497a65-dbdf-4556-b4f2-916116247d7b")
-	)
-	(junction
-		(at 224.79 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c13a7a6-b12e-47a8-b220-4a12b89e894a")
 	)
 	(junction
 		(at 224.79 33.02)
@@ -4122,15 +2069,11 @@
 		(color 0 0 0 0)
 		(uuid "de583586-a255-4259-88bb-2032985dbb14")
 	)
-	(wire
-		(pts
-			(xy 63.5 36.83) (xy 64.77 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0303bfb8-0eac-4752-9834-7b1550573ba6")
+	(junction
+		(at 224.79 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eacfde20-64ae-4f52-98f9-b56d3948d005")
 	)
 	(wire
 		(pts
@@ -4174,6 +2117,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 21.59) (xy 247.65 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e71f6fd-2803-4a06-a8c9-17eccb4f3f22")
+	)
+	(wire
+		(pts
 			(xy 270.51 21.59) (xy 270.51 25.4)
 		)
 		(stroke
@@ -4214,16 +2167,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 45.72) (xy 224.79 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e715ad3-beb3-4fda-a4af-d0d485c97d7b")
-	)
-	(wire
-		(pts
 			(xy 260.35 45.72) (xy 260.35 44.45)
 		)
 		(stroke
@@ -4241,16 +2184,6 @@
 			(type default)
 		)
 		(uuid "232772fd-a54e-48af-86c1-08978777c964")
-	)
-	(wire
-		(pts
-			(xy 46.99 19.05) (xy 46.99 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279c7bd0-522e-48ee-94e6-4606d8f198ec")
 	)
 	(wire
 		(pts
@@ -4274,16 +2207,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 41.91) (xy 55.88 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f2a093-bb16-4e88-83aa-7a6ef40e45f6")
-	)
-	(wire
-		(pts
 			(xy 224.79 30.48) (xy 224.79 33.02)
 		)
 		(stroke
@@ -4294,27 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 35.56) (xy 38.1 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb34435-119b-4f45-91b6-b31d2dae593c")
-	)
-	(wire
-		(pts
-			(xy 38.1 21.59) (xy 38.1 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4b8a8a-b092-4d3b-a0e3-8a8c2707fb62")
-	)
-	(wire
-		(pts
-			(xy 270.51 45.72) (xy 270.51 30.48)
+			(xy 270.51 45.72) (xy 270.51 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4344,26 +2247,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 31.75) (xy 38.1 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7013306e-613e-4387-b15f-3acbb68687ab")
-	)
-	(wire
-		(pts
-			(xy 38.1 19.05) (xy 46.99 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dcf8575-090c-4311-82f9-05a470981a4b")
-	)
-	(wire
-		(pts
 			(xy 224.79 35.56) (xy 228.6 35.56)
 		)
 		(stroke
@@ -4374,33 +2257,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 21.59) (xy 224.79 21.59)
+			(xy 224.79 21.59) (xy 232.41 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a534093-9cf4-4b81-b19a-dfc1571a1028")
-	)
-	(wire
-		(pts
-			(xy 45.72 52.07) (xy 45.72 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d47ad1b-b9e0-4cae-9f65-f6e363dfdbb4")
-	)
-	(wire
-		(pts
-			(xy 55.88 29.21) (xy 55.88 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a170bda6-9465-4a0a-8b81-ab89e53e7c6e")
 	)
 	(wire
 		(pts
@@ -4424,26 +2287,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 39.37) (xy 48.26 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2996d54-5c10-4f88-b2f9-55aaffa899f5")
-	)
-	(wire
-		(pts
-			(xy 64.77 36.83) (xy 74.93 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39e8aa4-f319-467d-a9ce-29f6b065315c")
-	)
-	(wire
-		(pts
 			(xy 208.28 48.26) (xy 208.28 49.53)
 		)
 		(stroke
@@ -4454,16 +2297,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 36.83) (xy 64.77 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c11390d2-ba4e-4ebe-aa50-90c737ab90b8")
-	)
-	(wire
-		(pts
 			(xy 247.65 21.59) (xy 251.46 21.59)
 		)
 		(stroke
@@ -4471,6 +2304,16 @@
 			(type default)
 		)
 		(uuid "c5583ff0-71fd-4eae-bcaf-bb1b2df0a796")
+	)
+	(wire
+		(pts
+			(xy 224.79 35.56) (xy 224.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5920e92-23a9-47d9-8f02-353a5953aad1")
 	)
 	(wire
 		(pts
@@ -4494,16 +2337,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 21.59) (xy 247.65 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd90cd62-15f3-4470-b8d0-77e7a288e1bb")
-	)
-	(wire
-		(pts
 			(xy 215.9 57.15) (xy 215.9 59.69)
 		)
 		(stroke
@@ -4511,16 +2344,6 @@
 			(type default)
 		)
 		(uuid "dab6a3e6-0a09-4f9e-9e20-4cc1e7ac1274")
-	)
-	(wire
-		(pts
-			(xy 224.79 35.56) (xy 224.79 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7e5cd4-cb47-4739-aa5a-9b54a9a236d0")
 	)
 	(wire
 		(pts
@@ -4544,36 +2367,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 34.29) (xy 48.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef423cb6-3f52-463d-b0af-03f565c84bd8")
-	)
-	(wire
-		(pts
-			(xy 64.77 52.07) (xy 45.72 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d39240-2aa6-4e15-83ac-c24f83f151ea")
-	)
-	(wire
-		(pts
-			(xy 38.1 44.45) (xy 38.1 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ffca56-6231-4a6d-8452-ce1e9ac32538")
-	)
-	(wire
-		(pts
 			(xy 224.79 21.59) (xy 224.79 30.48)
 		)
 		(stroke
@@ -4593,8 +2386,8 @@
 		(uuid "fd1b96e3-78b4-4687-838b-17a10b603df4")
 	)
 	(rectangle
-		(start 13.716 36.576)
-		(end 35.306 46.736)
+		(start 177.8 12.7)
+		(end 284.48 67.31)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4602,33 +2395,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 17bdaf0d-1c64-4917-a00d-f57e3853f086)
-	)
-	(rectangle
-		(start 45.466 53.34)
-		(end 72.136 66.04)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e844a099-3d45-4e58-91fb-ba3577896e56)
-	)
-	(text "1M resistor bc guitar \nsignal is AC coupled \nand we need stable DC\nreference voltage"
-		(exclude_from_sim no)
-		(at 24.638 41.91 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-		)
-		(uuid "1eb85978-7471-4085-9c6f-0e78bd87aa9f")
+		(uuid c51df24c-5a02-4c1d-9b61-c19432e1b5b5)
 	)
 	(text "TODO:\n- adjustable gain for input OpAmp?\n- check caps. Maybe make components\n  so better sizes? (learn to model)\n- vet the cap's ripple current. Assume ok for now\n\n\n"
 		(exclude_from_sim no)
-		(at 108.458 23.114 0)
+		(at 127 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4639,7 +2410,7 @@
 	)
 	(text "boost converter considerations:\n- effiency (9V @ 500mA => 5V @ 1.1A)\n- expected current load (600 mA max?)\n- noise and ripple\n- as long as current ripple <RMS of caps :)\n- picked 10uH inductor. should b overkill\n- schottky diode. Consider forward V drop,\n  reverse voltage rating, forward I rating,\n  switching speed\n- 10k resistors enough for CC1 CC2??"
 		(exclude_from_sim no)
-		(at 138.938 38.608 0)
+		(at 127 34.036 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -4648,49 +2419,16 @@
 		)
 		(uuid "5d2b6a4b-cff6-47f8-aff3-8541412f8d50")
 	)
-	(text "buffer to isolate guitar \nsignal whilst maintaining \nhigh input impedance.\nPrevents pickup loading &\nensures signal integrity "
+	(text "Power Supply"
 		(exclude_from_sim no)
-		(at 46.99 59.69 0)
+		(at 190.5 70.104 0)
 		(effects
 			(font
-				(size 1.143 1.143)
-			)
-			(justify left)
-		)
-		(uuid "98e8ef5a-c9f3-4d5c-8133-7962b3c43b2f")
-	)
-	(text "buffer considerations:\n- low bias\n- high input impedance\n\n"
-		(exclude_from_sim no)
-		(at 15.24 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9714c0e-8608-413d-9152-0cc143f8a3af")
-	)
-	(global_label "GUITAR_OUT"
-		(shape input)
-		(at 74.93 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1197de99-044b-4fa2-a4fc-c2726a690fe6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.0429 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+				(size 2.54 2.54)
+				(color 255 73 90 1)
 			)
 		)
+		(uuid "caa3c0ff-cc43-4407-bb8f-e9153fe033ff")
 	)
 	(symbol
 		(lib_id "PCM_4ms_Resistor:150R_0603")
@@ -4885,7 +2623,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1bdb4701-8bcc-416f-8851-6d76acabb585")
 		(property "Reference" "#PWR07"
 			(at 270.51 52.07 0)
@@ -4897,7 +2634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 50.8 0)
+			(at 270.51 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +2688,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1dd0a06a-6c93-4987-bd31-afb3d0db5e7e")
 		(property "Reference" "#PWR011"
 			(at 208.28 66.04 0)
@@ -4963,7 +2699,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 64.77 0)
+			(at 208.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +2753,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "247f3161-0e43-4f65-ac97-b2049ec683fe")
 		(property "Reference" "#PWR013"
 			(at 182.88 66.04 0)
@@ -5029,7 +2764,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 64.77 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,118 +2805,6 @@
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio:PT2399")
-		(at 148.59 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28e44048-8711-4c86-9afe-1f05a21cbe17")
-		(property "Reference" "U4"
-			(at 165.1 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT2399"
-			(at 165.1 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 158.75 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.princeton.com.tw/Portals/0/Product/PT2399_1.pdf"
-			(at 158.75 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Echo Processor IC, DIP-16"
-			(at 148.59 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "7fd4b13f-066e-4dae-8acc-01d7c6009bca")
-		)
-		(pin "13"
-			(uuid "dcda4cca-7505-4cbf-a978-03e336670c96")
-		)
-		(pin "3"
-			(uuid "a2c8d320-8b3f-4d8b-a87b-95976a9a6991")
-		)
-		(pin "16"
-			(uuid "8ba649db-41c8-4c14-a394-d8aa0a15f6ac")
-		)
-		(pin "11"
-			(uuid "85779f31-f045-4523-84a0-862b23d1d0da")
-		)
-		(pin "9"
-			(uuid "82151880-2bf5-4210-858c-53e1fb4929f0")
-		)
-		(pin "12"
-			(uuid "036f1ae9-7ddf-442b-9ea2-eb15826e0ded")
-		)
-		(pin "1"
-			(uuid "956b9293-fd34-42b6-bd12-784822c15fe0")
-		)
-		(pin "4"
-			(uuid "b7422160-3e1c-4b7b-a967-70c8395dfde4")
-		)
-		(pin "5"
-			(uuid "d2a9b5bf-35d0-41c1-8bd0-afc8dc53aa0c")
-		)
-		(pin "8"
-			(uuid "b0d8acb4-bc72-42f7-bb63-378b8c4f3b4b")
-		)
-		(pin "10"
-			(uuid "a85000cb-cbe5-491d-9840-b4417c82f44c")
-		)
-		(pin "2"
-			(uuid "51b786c5-f8ed-4b8d-84dc-fdf96cdb196a")
-		)
-		(pin "6"
-			(uuid "676fb576-9a9b-42ab-b7c6-16e99f8300b5")
-		)
-		(pin "7"
-			(uuid "1c9b7e4e-2fe7-404a-b0ed-70f925ea75bf")
-		)
-		(pin "14"
-			(uuid "f985646c-c7a4-4ff5-8b30-7c6f6ae067d4")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5389,7 +3012,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NJ2FD-V")
-		(at 21.59 80.01 0)
+		(at 24.13 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5398,7 +3021,7 @@
 		(fields_autoplaced yes)
 		(uuid "35225ec5-8e55-4704-b496-88a90cf445eb")
 		(property "Reference" "AUX_OUT"
-			(at 20.955 71.12 0)
+			(at 23.495 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +3029,7 @@
 			)
 		)
 		(property "Value" "NJ2FD-V"
-			(at 20.955 73.66 0)
+			(at 23.495 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +3037,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical"
-			(at 21.59 80.01 0)
+			(at 24.13 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +3046,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nj2fd-v"
-			(at 21.59 80.01 0)
+			(at 24.13 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +3055,7 @@
 			)
 		)
 		(property "Description" "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)"
-			(at 21.59 80.01 0)
+			(at 24.13 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,166 +3073,6 @@
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
 					(reference "AUX_OUT")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Fixed-Inductors:82103C")
-		(at 236.22 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3895f1e9-c525-40df-a025-69c8c887b067")
-		(property "Reference" "L1"
-			(at 236.22 16.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "10 uH"
-			(at 236.22 19.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "digikey-footprints:1206"
-			(at 241.3 16.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf"
-			(at 241.3 13.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "FIXED IND 10UH 500MA 400 MOHM"
-			(at 236.22 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "811-2473-1-ND"
-			(at 241.3 11.43 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "82103C"
-			(at 241.3 8.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Inductors, Coils, Chokes"
-			(at 241.3 6.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Fixed Inductors"
-			(at 241.3 3.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf"
-			(at 241.3 1.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/murata-power-solutions-inc/82103C/811-2473-1-ND/3178544"
-			(at 241.3 -1.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FIXED IND 10UH 500MA 400 MOHM"
-			(at 241.3 -3.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Power Solutions Inc."
-			(at 241.3 -6.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 241.3 -8.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf30af2d-5481-482a-a36c-94e29d635dfe")
-		)
-		(pin "1"
-			(uuid "00aea4a0-1d3a-4161-84df-e404b91a9926")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5742,7 +3205,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b810bb6-b3cb-43ed-9d7c-ce9ec2d3ff0f")
 		(property "Reference" "#PWR06"
 			(at 260.35 52.07 0)
@@ -5754,7 +3216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 50.8 0)
+			(at 260.35 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,72 +3263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 46.99 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42d69032-3cc1-49a9-bfe2-0936ac9e516d")
-		(property "Reference" "#PWR02"
-			(at 46.99 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc998d01-57ea-4f57-b64b-aeb290af594d")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_PowerOnly_24P")
 		(at 190.5 40.64 0)
 		(unit 1)
@@ -5876,7 +3272,7 @@
 		(dnp no)
 		(uuid "498262ad-eeb9-403f-9476-3a83ee801360")
 		(property "Reference" "J1"
-			(at 184.404 23.368 0)
+			(at 181.102 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +3280,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_PowerOnly_24P"
-			(at 184.404 25.908 0)
+			(at 196.596 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,124 +3351,6 @@
 			(project ""
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Capacitor:22uF_1206_25V")
-		(at 224.79 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5dbfd3c8-eb26-439e-b118-a484c6c6bdcf")
-		(property "Reference" "C3"
-			(at 222.25 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF_1206_25V"
-			(at 224.79 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_1206"
-			(at 227.33 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC"
-			(at 224.79 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC"
-			(at 227.33 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Taiyo Yuden"
-			(at 227.33 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "TMK316BBJ226ML-T"
-			(at 227.33 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "22uF/25V"
-			(at 222.25 40.386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C12891"
-			(at 224.79 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd5327ff-cbb0-4144-bbb8-6bbaed53f71f")
-		)
-		(pin "2"
-			(uuid "7a411d7b-c6eb-4245-8ae6-1ff875d4fa84")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6205,7 +3483,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ec2959c-0b7e-4db6-88b3-6392b4c490cd")
 		(property "Reference" "#PWR012"
 			(at 215.9 66.04 0)
@@ -6217,7 +3494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 64.77 0)
+			(at 215.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,111 +3541,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:NJ2FD-V")
-		(at 33.02 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70262815-0b7f-4e02-b15f-8e7c9b2d63b4")
-		(property "Reference" "AUX_IN"
-			(at 33.02 13.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NJ2FD-V"
-			(at 33.02 16.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical"
-			(at 33.02 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/nj2fd-v"
-			(at 33.02 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)"
-			(at 33.02 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "9cc6f99a-3013-4a27-bba1-a20c901534b7")
-		)
-		(pin "S"
-			(uuid "8a64e131-8539-430b-a2de-633eeca2d924")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "AUX_IN")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio:PT2399")
-		(at 82.55 109.22 90)
+		(lib_id "Device:C")
+		(at 270.51 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d9aa0e7-e749-4880-8533-53b87ef98087")
-		(property "Reference" "U3"
-			(at 99.06 107.9499 90)
+		(uuid "79af4c1c-ad91-47f2-b8b3-6cf5403b70ed")
+		(property "Reference" "C1"
+			(at 274.32 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "PT2399"
-			(at 99.06 110.4899 90)
+		(property "Value" "22uF"
+			(at 274.32 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 92.71 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.princeton.com.tw/Portals/0/Product/PT2399_1.pdf"
-			(at 92.71 109.22 0)
+		(property "Footprint" ""
+			(at 271.4752 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,8 +3577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Echo Processor IC, DIP-16"
-			(at 82.55 109.22 0)
+		(property "Datasheet" "~"
+			(at 270.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,84 +3586,50 @@
 				(hide yes)
 			)
 		)
-		(pin "15"
-			(uuid "d9db7f36-922a-401d-b730-4b80d8fb00d5")
-		)
-		(pin "13"
-			(uuid "d15fa04c-7765-419d-8d12-2cccb7c402a7")
-		)
-		(pin "3"
-			(uuid "c9062faf-aeb3-4afe-b918-711729b6abf4")
-		)
-		(pin "16"
-			(uuid "3ecb1fb8-e8a0-40b7-8605-c681edd66d57")
-		)
-		(pin "11"
-			(uuid "9de26667-9310-47cf-a27b-95615c19fe4a")
-		)
-		(pin "9"
-			(uuid "b62514c5-dccc-46f4-864e-0a2de7aca0fa")
-		)
-		(pin "12"
-			(uuid "88c7141b-7ab5-4dda-af32-98695e8fdf01")
+		(property "Description" "Unpolarized capacitor"
+			(at 270.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "03f8946c-86d5-4a38-b9ea-0c1e88aac6b1")
-		)
-		(pin "4"
-			(uuid "97c564cb-46da-484b-a38f-a6476e8cf3d5")
-		)
-		(pin "5"
-			(uuid "512e5bc3-d4c0-4208-acc5-c50ae375cf68")
-		)
-		(pin "8"
-			(uuid "066b5d07-0376-4ce2-93f8-539a580eea21")
-		)
-		(pin "10"
-			(uuid "59351c5f-3da4-4367-b685-08617f97d405")
+			(uuid "f9e675db-8e7a-44c6-b097-94f989105bba")
 		)
 		(pin "2"
-			(uuid "a2216a63-4857-4fd4-a5e5-050bd8d0a822")
-		)
-		(pin "6"
-			(uuid "e6ed9b61-c0ea-41c6-ad79-4f84eb97f6a6")
-		)
-		(pin "7"
-			(uuid "060eba26-a725-4db0-ae58-df584b289697")
-		)
-		(pin "14"
-			(uuid "93cfc666-bddf-45c5-8b8c-e89cdc2ec85d")
+			(uuid "9463b633-e65a-45c6-9bbd-15d93ad299a6")
 		)
 		(instances
 			(project ""
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "U3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 38.1 44.45 180)
+		(lib_id "Device:L")
+		(at 236.22 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "81504587-55d6-421f-9449-d5fccd9289b7")
-		(property "Reference" "#PWR01"
-			(at 38.1 40.64 0)
+		(uuid "7fe23703-4fb2-4fdf-81f6-b84feb81acce")
+		(property "Reference" "L1"
+			(at 236.22 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 38.1 49.53 0)
+		(property "Value" "22uH"
+			(at 236.22 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,7 +3637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 44.45 0)
+			(at 236.22 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,8 +3645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 44.45 0)
+		(property "Datasheet" "~"
+			(at 236.22 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,171 +3654,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 38.1 44.45 0)
+		(property "Description" "Inductor"
+			(at 236.22 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "fc802c0e-f43f-44eb-8eea-6f225a9ae6c7")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_Module:Adafruit_Feather_HUZZAH32_ESP32")
-		(at 30.48 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d0933b4-27ac-4201-b427-a644c1c28ec8")
-		(property "Reference" "A1"
-			(at 32.6741 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Adafruit_Feather_HUZZAH32_ESP32"
-			(at 32.6741 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Adafruit_Feather"
-			(at 33.02 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah32-esp32-feather.pdf"
-			(at 30.48 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Microcontroller module with ESP32 MCU"
-			(at 30.48 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "18"
-			(uuid "40462f12-05af-4396-aa2d-626e56e32f98")
-		)
-		(pin "19"
-			(uuid "47b04945-4077-4b82-af2b-47318a2eda1e")
-		)
-		(pin "24"
-			(uuid "f9337b9e-6eb9-47e4-af9c-b0a37830baac")
-		)
-		(pin "7"
-			(uuid "8238bc21-97d1-4be5-b568-7bbd8d0503f2")
-		)
-		(pin "3"
-			(uuid "dcb8201a-d5e6-4ef0-a398-c649a784e589")
-		)
-		(pin "8"
-			(uuid "dbf9d1b4-8053-4418-9b1d-8cfb73c89465")
-		)
-		(pin "22"
-			(uuid "c64b1c42-4de6-4604-8fab-052460381228")
-		)
-		(pin "13"
-			(uuid "43cbcdf0-ba5a-4b47-8891-539e82e4ad22")
-		)
-		(pin "12"
-			(uuid "4a8dc444-62d0-4703-afd8-9bbfba6a8794")
-		)
-		(pin "27"
-			(uuid "036c4b37-e8cd-4dbf-ad9f-a8c336b2a3d9")
-		)
-		(pin "23"
-			(uuid "c5c8dbdf-4dfa-4d43-a0db-9c8870c0d978")
-		)
-		(pin "5"
-			(uuid "d65977da-165b-4be0-958e-e9f344f25699")
-		)
-		(pin "25"
-			(uuid "94b0644a-3231-46b5-ae93-106766e04954")
-		)
-		(pin "17"
-			(uuid "a93837a8-7fd1-4359-b2de-1f2617430206")
-		)
-		(pin "10"
-			(uuid "668ff436-95e6-45b3-b470-c40dd39775c3")
-		)
-		(pin "1"
-			(uuid "9db2d82a-3df2-42aa-9f55-610a00b8828f")
-		)
-		(pin "20"
-			(uuid "01f06450-f452-463c-92cc-9b6cbde41d8e")
-		)
-		(pin "15"
-			(uuid "8e45b22e-a770-4105-ad15-4909bf9cb946")
-		)
-		(pin "6"
-			(uuid "835c923b-2111-4ffb-a213-026da8a716bb")
-		)
-		(pin "4"
-			(uuid "0bf9f032-67fe-4dcc-84ce-c9fd3552e381")
-		)
-		(pin "16"
-			(uuid "e0ac14fa-b644-4b72-bdb9-d4d49570aaa0")
-		)
-		(pin "14"
-			(uuid "2cd77e75-fd15-4b27-9365-5d6300dc37b4")
-		)
-		(pin "21"
-			(uuid "a6434f44-e714-4d42-973a-7757e01db58e")
-		)
-		(pin "26"
-			(uuid "c5dfd424-3605-4d15-928e-8b1fe61a2baf")
-		)
-		(pin "11"
-			(uuid "be607bd8-28b3-4130-9131-63d2365b192b")
 		)
 		(pin "2"
-			(uuid "cb4c9258-8cf1-4efc-bf1d-041a0cf97276")
+			(uuid "221f42c1-027c-4b99-810e-fd7804369747")
 		)
-		(pin "28"
-			(uuid "5b383f73-8272-40f2-a5ac-3e81f54be96e")
-		)
-		(pin "9"
-			(uuid "e711a71c-55f1-49fd-8814-2bb1b555d02b")
+		(pin "1"
+			(uuid "65e40212-10ea-4329-bc37-54ed430cecca")
 		)
 		(instances
 			(project ""
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "A1")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -6665,7 +3686,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be46a885-bc06-43b3-a5c3-7c1084180358")
 		(property "Reference" "#PWR05"
 			(at 224.79 52.07 0)
@@ -6677,7 +3697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 50.8 0)
+			(at 224.79 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,52 +3744,35 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps:TL072IP")
-		(at 55.88 36.83 0)
+		(lib_id "Device:C")
+		(at 224.79 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d158339a-d553-4ee8-9fab-e1e0e2b3ed4c")
-		(property "Reference" "U2"
-			(at 67.31 30.5114 0)
+		(fields_autoplaced yes)
+		(uuid "d8f10859-db4d-4487-8c9a-6c7dfa257cb1")
+		(property "Reference" "C3"
+			(at 228.6 40.6399 0)
 			(effects
 				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TL072IP"
-			(at 67.31 33.0514 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "digikey-footprints:DIP-8_W7.62mm"
-			(at 60.96 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a"
-			(at 60.96 29.21 0)
+		(property "Value" "22uF"
+			(at 228.6 43.1799 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Description" "IC OPAMP JFET 2 CIRCUIT 8DIP"
-			(at 55.88 36.83 0)
+		(property "Footprint" ""
+			(at 225.7552 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,130 +3780,34 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "296-14997-5-ND"
-			(at 60.96 26.67 0)
+		(property "Datasheet" "~"
+			(at 224.79 41.91 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "MPN" "TL072IP"
-			(at 60.96 24.13 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 224.79 41.91 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
-		)
-		(property "Category" "Integrated Circuits (ICs)"
-			(at 60.96 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps"
-			(at 60.96 19.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a"
-			(at 60.96 16.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/texas-instruments/TL072IP/296-14997-5-ND/563039"
-			(at 60.96 13.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "IC OPAMP JFET 2 CIRCUIT 8DIP"
-			(at 60.96 11.43 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 60.96 8.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 60.96 6.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "c6600d85-1d7c-4703-9fa7-725401024f1b")
-		)
-		(pin "5"
-			(uuid "8bc64027-db02-4a10-bf81-d6d57ba68b78")
-		)
-		(pin "4"
-			(uuid "eb2f9d27-7e28-4215-a850-1f23d82d0a36")
 		)
 		(pin "1"
-			(uuid "96881054-585a-41bd-945a-05b38d94b499")
-		)
-		(pin "3"
-			(uuid "50fc61f8-8dfc-4bb6-958f-eca3321c2f82")
+			(uuid "c8d5d5c1-f0ee-45a1-8649-6194776dc68f")
 		)
 		(pin "2"
-			(uuid "709cdbb1-dd7e-4c5c-8128-6ebd340febfd")
-		)
-		(pin "4"
-			(uuid "468921db-e8c8-46e9-b46d-b93c79181bfa")
-		)
-		(pin "8"
-			(uuid "2f00b2b3-c2c2-4d8e-a114-e41aa2509811")
-		)
-		(pin "6"
-			(uuid "47ea9f9a-eeca-4f2c-9cf5-d212c9961233")
-		)
-		(pin "8"
-			(uuid "5b0ab5ad-df6c-43ef-ace5-3fc8bc21b427")
+			(uuid "3b22d6fb-dc92-4d17-be9e-05e6dc113d57")
 		)
 		(instances
-			(project ""
+			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "U2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6914,7 +3821,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e2817c00-b10e-4960-bd08-9072eb0f1f63")
 		(property "Reference" "#PWR04"
 			(at 236.22 52.07 0)
@@ -6926,7 +3832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 50.8 0)
+			(at 236.22 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +3886,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e85a837e-d11e-48cd-af98-729d3be5199b")
 		(property "Reference" "#PWR03"
 			(at 190.5 66.04 0)
@@ -6992,7 +3897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 64.77 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,191 +3938,6 @@
 			(project ""
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 38.1 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e931b236-1503-42da-80c4-989dc1968746")
-		(property "Reference" "C2"
-			(at 40.64 27.9462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF_0603_16V"
-			(at 38.1 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_0603"
-			(at 35.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-			(at 38.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-			(at 35.56 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 35.56 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603YC104KAT2A"
-			(at 35.56 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "0.1uF"
-			(at 40.64 30.4862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C14663"
-			(at 39.37 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eafc0148-a3f4-4ce7-8324-39dfc72df528")
-		)
-		(pin "1"
-			(uuid "452e4423-b17c-425a-86a0-6fa96c21b636")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+9V")
-		(at 55.88 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eae684a8-3fdc-415f-81dc-958f2e6f7073")
-		(property "Reference" "#PWR010"
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+9V"
-			(at 55.88 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "790ecb34-c9a9-4748-b415-5c4307b681e4")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7291,257 +4011,78 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 36.83 26.67)
+		(size 17.78 10.16)
 		(fields_autoplaced yes)
-		(uuid "f7a54cde-b2a4-4f79-9e20-445ff3b86188")
-		(property "Reference" "#PWR08"
-			(at 55.88 50.8 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "154abc53-5f6b-42ab-83f1-df9e28bd1935")
+		(property "Sheetname" "analog_signal_processing"
+			(at 36.83 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "GND"
-			(at 55.88 49.53 0)
+		(property "Sheetfile" "analog_signal_processing.kicad_sch"
+			(at 36.83 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 55.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8cba5bd-f418-4486-8be6-7da1fb9e73fc")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR08")
-					(unit 1)
+					(page "3")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at -93.98 93.98)
+		(size 78.74 38.1)
 		(fields_autoplaced yes)
-		(uuid "f7b92a53-fbd1-4c6f-85fb-6e463d95da13")
-		(property "Reference" "R1"
-			(at 40.64 38.0999 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cbb7c5e-b1fd-4855-8abd-313851d84b1e")
+		(property "Sheetname" "esp32"
+			(at -93.98 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "1M"
-			(at 40.64 40.6399 0)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at -93.98 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 36.322 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9d6fd95-605e-418c-950a-145acb794847")
-		)
-		(pin "2"
-			(uuid "acf2366d-692b-4f36-8536-4e52edd52828")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Capacitor:22uF_1206_25V")
-		(at 270.51 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9cc076b-8229-41d8-b788-f44eb6f70c18")
-		(property "Reference" "C1"
-			(at 273.05 26.6762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF_1206_25V"
-			(at 270.51 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Capacitor:C_1206"
-			(at 267.97 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC"
-			(at 270.51 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "22uF, Min. 25V, 20%, X5R or X7S or similar, 1206, MLCC"
-			(at 267.97 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Taiyo Yuden"
-			(at 267.97 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "TMK316BBJ226ML-T"
-			(at 267.97 38.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "22uF/25V"
-			(at 273.05 29.2162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C12891"
-			(at 270.51 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0a6ae1a-6ff0-4fc5-a8de-ca1f4559cf40")
-		)
-		(pin "2"
-			(uuid "7f87e3a1-49ab-43e8-8c29-1b380c6bd0aa")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "C1")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
