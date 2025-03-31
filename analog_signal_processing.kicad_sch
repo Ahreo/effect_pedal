@@ -3417,6 +3417,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 172.72) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0551483d-7681-4279-b281-4bd321a00979")
+	)
+	(wire
+		(pts
 			(xy 243.84 35.56) (xy 247.65 35.56)
 		)
 		(stroke
@@ -3657,6 +3667,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 135.89) (xy 90.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c8c19c-dc6e-4368-a099-bf6b5e19ceb4")
+	)
+	(wire
+		(pts
 			(xy 198.12 54.61) (xy 198.12 55.88)
 		)
 		(stroke
@@ -3677,7 +3697,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 128.27) (xy 67.31 130.81)
+			(xy 38.1 128.27) (xy 38.1 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4057,6 +4077,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 172.72) (xy 63.5 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934de742-94a8-45d7-9d65-2f09265046cb")
+	)
+	(wire
+		(pts
 			(xy 95.25 146.05) (xy 95.25 147.32)
 		)
 		(stroke
@@ -4104,16 +4134,6 @@
 			(type default)
 		)
 		(uuid "9cb8a2e8-6eb4-443c-9e24-f952c781c94c")
-	)
-	(wire
-		(pts
-			(xy 63.5 165.1) (xy 63.5 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d15b0e4-f13e-4c77-93cc-40c075a5235e")
 	)
 	(wire
 		(pts
@@ -4896,7 +4916,7 @@
 	)
 	(global_label "AUDIO_IN"
 		(shape input)
-		(at 59.69 135.89 180)
+		(at 30.48 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4906,7 +4926,7 @@
 		)
 		(uuid "201ed235-3b06-4631-87d1-cfbc21df6b84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.1775 135.89 0)
+			(at 18.9675 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4960,7 @@
 	)
 	(global_label "U4C"
 		(shape input)
-		(at 67.31 128.27 0)
+		(at 38.1 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4950,7 +4970,7 @@
 		)
 		(uuid "3cba7ac2-1e28-476b-b68d-f569570cf7c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.1052 128.27 0)
+			(at 44.8952 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5114,7 @@
 	)
 	(global_label "Output_Tap"
 		(shape input)
-		(at 48.26 172.72 180)
+		(at 33.02 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5104,7 +5124,7 @@
 		)
 		(uuid "985b709f-4f0d-4a7a-967c-513f32967f7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.8127 172.72 0)
+			(at 19.5727 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5694,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Resistor:4.7k_0603")
-		(at 86.36 135.89 90)
+		(at 57.15 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5682,7 +5702,7 @@
 		(dnp no)
 		(uuid "16decd67-b1b3-47b6-af61-fa910149fb3a")
 		(property "Reference" "R29"
-			(at 86.36 131.826 90)
+			(at 57.15 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +5710,7 @@
 			)
 		)
 		(property "Value" "4.7k_0603"
-			(at 86.36 138.43 90)
+			(at 57.15 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5719,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Resistor:R_0603"
-			(at 99.06 138.43 0)
+			(at 69.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 135.89 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5738,7 @@
 			)
 		)
 		(property "Description" "4k7, 1%, 1/10W, 0603"
-			(at 86.36 135.89 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5747,7 @@
 			)
 		)
 		(property "Specifications" "4k7, 1%, 1/10W, 0603"
-			(at 94.234 138.43 0)
+			(at 65.024 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5757,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 95.758 138.43 0)
+			(at 66.548 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5767,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-074K7L"
-			(at 97.282 138.43 0)
+			(at 68.072 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5777,7 @@
 			)
 		)
 		(property "Display" "4.7k"
-			(at 86.36 133.604 90)
+			(at 57.15 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +5785,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C23162"
-			(at 86.36 135.89 0)
+			(at 57.15 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +5987,7 @@
 			(uuid "b3109779-3b6f-49b5-8de5-a4e154833f9a")
 		)
 		(pin "6"
-			(uuid "ddc1b71e-de24-4667-9477-d7a1bae35d7c")
+			(uuid "ddc1b71e-de24-4667-9477-d7a1bae35d7d")
 		)
 		(pin "1"
 			(uuid "f6304dd4-a801-49a2-880c-6ac530bf8b23")
@@ -5976,16 +5996,16 @@
 			(uuid "c00a11a1-0f5d-430c-832a-46fbdc0f890b")
 		)
 		(pin "5"
-			(uuid "3bb38029-f826-44c6-9568-baace6a87ad2")
+			(uuid "3bb38029-f826-44c6-9568-baace6a87ad3")
 		)
 		(pin "7"
-			(uuid "0e0fd9ea-ce61-4926-a20e-784303fbdc5e")
+			(uuid "0e0fd9ea-ce61-4926-a20e-784303fbdc5f")
 		)
 		(pin "8"
-			(uuid "45c0f41a-c955-440b-96d4-1a48a8fd12da")
+			(uuid "45c0f41a-c955-440b-96d4-1a48a8fd12db")
 		)
 		(pin "4"
-			(uuid "42779703-2ea1-4cc0-be82-5d5e22143619")
+			(uuid "42779703-2ea1-4cc0-be82-5d5e2214361a")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
@@ -7160,7 +7180,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 59.69 172.72 90)
+		(at 44.45 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7168,7 +7188,7 @@
 		(dnp no)
 		(uuid "399a948e-7a7e-4cb8-9cd7-a8bfeda28021")
 		(property "Reference" "C35"
-			(at 59.69 166.878 90)
+			(at 44.45 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7196,7 @@
 			)
 		)
 		(property "Value" "47 uF"
-			(at 59.69 168.656 90)
+			(at 44.45 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 171.7548 0)
+			(at 48.26 171.7548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7213,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 172.72 0)
+			(at 44.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7222,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 59.69 172.72 0)
+			(at 44.45 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9386,10 +9406,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f05d531-86d1-4f4e-8c4c-b7e84aa2bbc0")
 		(property "Reference" "POT2"
-			(at 68.58 167.6399 0)
+			(at 69.342 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +9501,7 @@
 			)
 		)
 		(property "Display" "10k"
-			(at 68.58 170.1799 0)
+			(at 69.342 170.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10264,7 +10283,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Resistor:4.7k_0603")
-		(at 52.07 172.72 90)
+		(at 36.83 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10272,7 +10291,7 @@
 		(dnp no)
 		(uuid "a11aaead-7dab-49a1-8d37-cbcf9e8fe240")
 		(property "Reference" "R26"
-			(at 52.07 168.656 90)
+			(at 36.83 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +10299,7 @@
 			)
 		)
 		(property "Value" "4.7k_0603"
-			(at 52.07 175.26 90)
+			(at 36.83 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,7 +10308,7 @@
 			)
 		)
 		(property "Footprint" "4ms_Resistor:R_0603"
-			(at 64.77 175.26 0)
+			(at 49.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +10318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 172.72 0)
+			(at 36.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,7 +10327,7 @@
 			)
 		)
 		(property "Description" "4k7, 1%, 1/10W, 0603"
-			(at 52.07 172.72 0)
+			(at 36.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10336,7 @@
 			)
 		)
 		(property "Specifications" "4k7, 1%, 1/10W, 0603"
-			(at 59.944 175.26 0)
+			(at 44.704 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10346,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 61.468 175.26 0)
+			(at 46.228 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +10356,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-074K7L"
-			(at 62.992 175.26 0)
+			(at 47.752 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +10366,7 @@
 			)
 		)
 		(property "Display" "4.7k"
-			(at 52.07 170.434 90)
+			(at 36.83 170.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,7 +10374,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C23162"
-			(at 52.07 172.72 0)
+			(at 36.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11023,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
-		(at 67.31 135.89 180)
+		(at 38.1 135.89 180)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11013,7 +11032,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad8d7c20-c474-4f30-a4be-2dd2fee6f79b")
 		(property "Reference" "U4"
-			(at 67.31 140.97 0)
+			(at 38.1 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11040,7 @@
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 67.31 143.51 0)
+			(at 38.1 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11048,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 67.31 133.35 0)
+			(at 38.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11038,7 +11057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 67.31 135.89 0)
+			(at 38.1 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,7 +11066,7 @@
 			)
 		)
 		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 67.31 135.89 0)
+			(at 38.1 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,25 +11742,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "8fe0a1de-c9b3-4a65-a728-c9d9c3568321")
+			(uuid "8fe0a1de-c9b3-4a65-a728-c9d9c3568322")
 		)
 		(pin "5"
-			(uuid "ae1337fd-256e-41cd-be12-a05d9a34d77a")
+			(uuid "ae1337fd-256e-41cd-be12-a05d9a34d77b")
 		)
 		(pin "3"
-			(uuid "7c22fb49-ffe3-4ede-aaec-6d87a6450aff")
+			(uuid "7c22fb49-ffe3-4ede-aaec-6d87a6450b00")
 		)
 		(pin "1"
-			(uuid "0acf0973-52c4-4b7a-89c8-1193eeabaa29")
+			(uuid "0acf0973-52c4-4b7a-89c8-1193eeabaa2a")
 		)
 		(pin "4"
 			(uuid "c1c0738b-94c7-4c22-9295-650cdeac1439")
 		)
 		(pin "7"
-			(uuid "e1f5e80c-28fc-4f2a-8d37-61497af9170e")
+			(uuid "e1f5e80c-28fc-4f2a-8d37-61497af9170f")
 		)
 		(pin "6"
-			(uuid "eaa96df4-b6a6-4807-a29a-57babbe9af2d")
+			(uuid "eaa96df4-b6a6-4807-a29a-57babbe9af2e")
 		)
 		(pin "8"
 			(uuid "be044c40-e77f-4e17-ab21-4e6f735d9b18")
@@ -12041,7 +12060,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 78.74 135.89 90)
+		(at 49.53 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12049,7 +12068,7 @@
 		(dnp no)
 		(uuid "c5ac46c2-abf3-4f3a-9cc8-07ae38f4945c")
 		(property "Reference" "C34"
-			(at 78.74 130.048 90)
+			(at 49.53 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,7 +12076,7 @@
 			)
 		)
 		(property "Value" "47 uF"
-			(at 78.74 131.826 90)
+			(at 49.53 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12065,7 +12084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 134.9248 0)
+			(at 53.34 134.9248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,7 +12093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 135.89 0)
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,7 +12102,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 78.74 135.89 0)
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
