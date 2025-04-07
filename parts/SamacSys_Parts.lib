@@ -1,0 +1,349 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MFR-25FRF52-4K7
+#/16156480/1647007/2.50/2/3/Resistor
+DEF MFR-25FRF52-4K7 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "MFR-25FRF52-4K7" 550 150 50 H V L CNN
+F2 "RESAD1590W60L630D240" 550 50 50 H I L CNN
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf" 550 -50 50 H I L CNN
+F4 "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "YAGEO" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MFR-25FRF52-4K7" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "603-MFR-25FRF52-4K7" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "MFR-25FRF52-4K7" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SR211C104KARTR1
+#/266380/1647007/2.50/2/4/Capacitor
+DEF SR211C104KARTR1 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SR211C104KARTR1" 350 150 50 H V L CNN
+F2 "SR211C104KARTR1" 350 50 50 H I L CNN
+F3 "http://datasheets.avx.com/SR-Series.pdf" 350 -50 50 H I L CNN
+F4 "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C" 350 -150 50 H I L CNN "Description"
+F5 "5.08" 350 -250 50 H I L CNN "Height"
+F6 "Kyocera AVX" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "SR211C104KARTR1" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "581-SR211C104KARTR1" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/SR211C104KARTR1?qs=VbDyUod5BIevel8oj7CoQQ%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "SR211C104KARTR1" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sr211c104kartr1/avx?utm_currency=USD&region=europe" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model REA470M1CBK-0511P
+#/1009286/1647007/2.50/2/3/Capacitor Polarised
+DEF REA470M1CBK-0511P C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "REA470M1CBK-0511P" 350 150 50 H V L CNN
+F2 "CAPPRD200W50D525H1250" 350 50 50 H I L CNN
+F3 "https://mouser.componentsearchengine.com/Datasheets/1/REA470M1CBK-0511P.pdf" 350 -50 50 H I L CNN
+F4 "Aluminum Electrolytic Capacitors - Radial Leaded 16V 47uF 20% 5x11 mm" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "Lelon" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "REA470M1CBK-0511P" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "140-REA470M1CBK0511P" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Lelon/REA470M1CBK-0511P/?qs=LVGG2qFPDbGuSPcHtpe6Lw%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SR211C682MARTR1
+#/1777437/1647007/2.50/2/4/Capacitor
+DEF SR211C682MARTR1 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SR211C682MARTR1" 350 150 50 H V L CNN
+F2 "SR211C682MARTR1" 350 50 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/40/SR-Series-1016911.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - Leaded 100volts 6800pF 20% X7R" 350 -150 50 H I L CNN "Description"
+F5 "5.08" 350 -250 50 H I L CNN "Height"
+F6 "Kyocera AVX" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "SR211C682MARTR1" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "581-SR211C682MARTR1" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/AVX/SR211C682MARTR1?qs=HTmLiGhN8CSDRS%252BX5uLc6A%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RCER72A332K0DBH03A
+#/3438382/1647007/2.50/2/2/Capacitor
+DEF RCER72A332K0DBH03A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "RCER72A332K0DBH03A" 350 150 50 H V L CNN
+F2 "RCER72A332K0DBH03A" 350 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RCE_X7R_X7S_25V-100V_E.pdf" 350 -50 50 H I L CNN
+F4 "Capacitor L=3.6mm W=3.5mm T=2.5mm 3300 pF +/-10% 100V Ceramic Capacitor X7R Radial" 350 -150 50 H I L CNN "Description"
+F5 "2.5" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "RCER72A332K0DBH03A" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MFR-25FRF52-1M
+#/16315867/1647007/2.50/2/3/Resistor
+DEF MFR-25FRF52-1M R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "MFR-25FRF52-1M" 550 150 50 H V L CNN
+F2 "RESAD1590W60L630D240" 550 50 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/447/YAGEO_MFR_datasheet_2021v1-3003041.pdf" 550 -50 50 H I L CNN
+F4 "Metal Film Resistors - Through Hole 1M ohm 1/4W 1%" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "YAGEO" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MFR-25FRF52-1M" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "603-MFR-25FRF521M" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-1M?qs=5furm%2FeQHzSnlSbrc%252BAEvg%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "MFR-25FRF52-1M" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mfr-25frf52-1m/yageo?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model YR1B4K99CC
+#/436024/1647007/2.50/2/2/Resistor
+DEF YR1B4K99CC R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "YR1B4K99CC" 550 150 50 H V L CNN
+F2 "RESAD1550W60L630D230" 550 50 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog%20Section&DocLang=English&PartCntxt=4-1676914-8&DocFormat=pdf" 550 -50 50 H I L CNN
+F4 "Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance .1 PCT | Operating Voltage 250 V | Resistance Class 1k  1M | Power Rating .25 WATT | Resistance Value 4.99K OHM | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type Precision Resistor | Termination Features: Termination Area Base Material Copp" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "TE Connectivity" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "YR1B4K99CC" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "279-YR1B4K99CC" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/YR1B4K99CC?qs=VHcS2MTj4gbuXX86srFQqQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "YR1B4K99CC" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/yr1b4k99cc/te-connectivity?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FG20X7R1C226MRT06
+#/565055/1647007/2.50/2/2/Capacitor
+DEF FG20X7R1C226MRT06 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "FG20X7R1C226MRT06" 350 150 50 H V L CNN
+F2 "FG20" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf" 350 -50 50 H I L CNN
+F4 "MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm" 350 -150 50 H I L CNN "Description"
+F5 "5.5" 350 -250 50 H I L CNN "Height"
+F6 "TDK" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "FG20X7R1C226MRT06" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "810-FG20X7R1C226MRT6" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK/FG20X7R1C226MRT06?qs=qf2ddTMq67WyJ0TFf7dwFQ%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SF17020F-0302-21R-L-015
+#/546778/1647007/2.50/9/4/Switch
+DEF SF17020F-0302-21R-L-015 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "SF17020F-0302-21R-L-015" 650 200 50 H V L CNN
+F2 "SF17020F030221RL015" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SF17020F-0302-21R-L-015.pdf" 650 0 50 H I L CNN
+F4 "Pushbutton Switches 3PDT STOMP/FOOT SW LATCHING 1A9VDC 9PIN" 650 -100 50 H I L CNN "Description"
+F5 "41.2" 650 -200 50 H I L CNN "Height"
+F6 "Alpha (Taiwan)" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SF17020F-0302-21R-L-015" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "107-SF17020F-32-21RL" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SF17020F-0302-21R-L-015?qs=8%252Br4Hz5Xir%252BN8wocvXmKAA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 800 0 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+X 8 8 800 -200 200 L 50 50 0 0 P
+X 9 9 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model YR1B2K0CC
+#/435903/1647007/2.50/2/2/Resistor
+DEF YR1B2K0CC R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "YR1B2K0CC" 550 150 50 H V L CNN
+F2 "RESAD1550W60L630D230" 550 50 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog%20Section&DocLang=English&PartCntxt=7-1676913-9&DocFormat=pdf" 550 -50 50 H I L CNN
+F4 "Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Resistance Class 1k  1M | Passive Component Tolerance .1 PCT | Power Rating .25 WATT | Resistance Value 2K OHM | Operating Voltage 250 V | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Resistor Type Precision Resistor | Element Type Thin Film | Termination Features: Number of Terminations 2 | Termination" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "TE Connectivity" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "YR1B2K0CC" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "279-YR1B2K0CC" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/YR1B2K0CC?qs=VHcS2MTj4gZrRDOEg27XKQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "YR1B2K0CC" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/yr1b2k0cc/te-connectivity" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MFR-25FBF52-150R
+#/16326549/1647007/2.50/2/3/Resistor
+DEF MFR-25FBF52-150R R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "MFR-25FBF52-150R" 550 150 50 H V L CNN
+F2 "RESAD1590W60L630D240" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/MFR-25FBF52-150R.pdf" 550 -50 50 H I L CNN
+F4 "Metal Film Resistors - Through Hole 150 OHM 1/4W 1%" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "YAGEO" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "MFR-25FBF52-150R" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "603-MFR-25FBF52-150R" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FBF52-150R?qs=oAGoVhmvjhzXwr6CW7nGjg%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "MFR-25FBF52-150R" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mfr-25fbf52-150r/yageo?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL072CP
+#/182323/1647007/2.50/8/3/Integrated Circuit
+DEF TL072CP IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TL072CP" 950 200 50 H V L CNN
+F2 "DIP794W53P254L959H508Q8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tl071a.pdf" 950 0 50 H I L CNN
+F4 "Dual Low-Noise JFET-Input General-Purpose Operational Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "5.08" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL072CP" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TL072CP" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL072CP?qs=5nGYs9Do7G3e6Tx9uHIgUA%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TL072CP" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "null?region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1OUT 1 0 0 200 R 50 50 0 0 P
+X 1IN- 2 0 -100 200 R 50 50 0 0 P
+X 1IN+ 3 0 -200 200 R 50 50 0 0 P
+X VCC- 4 0 -300 200 R 50 50 0 0 P
+X VCC+ 8 1100 0 200 L 50 50 0 0 P
+X 2OUT 7 1100 -100 200 L 50 50 0 0 P
+X 2IN- 6 1100 -200 200 L 50 50 0 0 P
+X 2IN+ 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model HV-5RGB60
+#/1263022/1647007/2.50/4/4/LED
+DEF HV-5RGB60 LED 0 30 Y Y 1 F N
+F0 "LED" 1850 300 50 H V L CNN
+F1 "HV-5RGB60" 1850 200 50 H V L CNN
+F2 "HV5RGB25" 1850 100 50 H I L CNN
+F3 "http://www.inolux-corp.com/datasheet/Inolux%20Lamp/TH%20Lamp/HV-5RGBXX%205mm%20Full-Color%20Series.pdf" 1850 0 50 H I L CNN
+F4 "Standard LEDs - Through Hole RGB LED" 1850 -100 50 H I L CNN "Description"
+F5 "8.9" 1850 -200 50 H I L CNN "Height"
+F6 "Inolux" 1850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "HV-5RGB60" 1850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "743-HV-5RGB60" 1850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Inolux/HV-5RGB60?qs=qSfuJ%252Bfl%2Fd7yi2o6d75%2FlQ%3D%3D" 1850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "HV-5RGB60" 1850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/hv-5rgb60/inolux-corporation?utm_currency=USD&region=nac" 1850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ANODE_BLUE 1 2000 0 200 L 50 50 0 0 P
+X ANODE_RED 2 0 0 200 R 50 50 0 0 P
+X COMMON_CATHODE 3 2000 -100 200 L 50 50 0 0 P
+X ANODE_GREEN 4 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1800 100 1800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

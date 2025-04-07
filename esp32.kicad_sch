@@ -5225,6 +5225,16 @@
 		)
 		(uuid "3eea8dfd-6fdc-416f-9d42-9777607400e6")
 	)
+	(text "add encoder\nadd push buttons\n"
+		(exclude_from_sim no)
+		(at 132.588 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49359c02-51fa-4c77-9461-c240beb342b8")
+	)
 	(text "boost converter considerations:\n- effiency (9V @ 500mA => 5V @ 1.1A)\n- expected current load (600 mA max?)\n- noise and ripple\n- as long as current ripple <RMS of caps :)\n- picked 10uH inductor. should b overkill\n- schottky diode. Consider forward V drop,\n  reverse voltage rating, forward I rating,\n  switching speed\n- 10k resistors enough for CC1 CC2??"
 		(exclude_from_sim no)
 		(at 162.56 23.114 0)

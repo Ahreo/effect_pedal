@@ -1,0 +1,87 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP MFR-25FRF52-4K7
+D 4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film
+K
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf
+$ENDCMP
+#
+$CMP SR211C104KARTR1
+D AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C
+K
+F http://datasheets.avx.com/SR-Series.pdf
+$ENDCMP
+#
+$CMP REA470M1CBK-0511P
+D Aluminum Electrolytic Capacitors - Radial Leaded 16V 47uF 20% 5x11 mm
+K
+F https://mouser.componentsearchengine.com/Datasheets/1/REA470M1CBK-0511P.pdf
+$ENDCMP
+#
+$CMP SR211C682MARTR1
+D Multilayer Ceramic Capacitors MLCC - Leaded 100volts 6800pF 20% X7R
+K
+F https://www.mouser.com/datasheet/2/40/SR-Series-1016911.pdf
+$ENDCMP
+#
+$CMP RCER72A332K0DBH03A
+D Capacitor L=3.6mm W=3.5mm T=2.5mm 3300 pF +/-10% 100V Ceramic Capacitor X7R Radial
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RCE_X7R_X7S_25V-100V_E.pdf
+$ENDCMP
+#
+$CMP MFR-25FRF52-1M
+D Metal Film Resistors - Through Hole 1M ohm 1/4W 1%
+K
+F https://www.mouser.com/datasheet/2/447/YAGEO_MFR_datasheet_2021v1-3003041.pdf
+$ENDCMP
+#
+$CMP YR1B4K99CC
+D Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Passive Component Tolerance .1 PCT | Operating Voltage 250 V | Resistance Class 1k  1M | Power Rating .25 WATT | Resistance Value 4.99K OHM | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Element Type Thin Film | Resistor Type Precision Resistor | Termination Features: Termination Area Base Material Copp
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog%20Section&DocLang=English&PartCntxt=4-1676914-8&DocFormat=pdf
+$ENDCMP
+#
+$CMP FG20X7R1C226MRT06
+D MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf
+$ENDCMP
+#
+$CMP SF17020F-0302-21R-L-015
+D Pushbutton Switches 3PDT STOMP/FOOT SW LATCHING 1A9VDC 9PIN
+K
+F https://componentsearchengine.com/Datasheets/1/SF17020F-0302-21R-L-015.pdf
+$ENDCMP
+#
+$CMP YR1B2K0CC
+D Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Resistance Class 1k  1M | Passive Component Tolerance .1 PCT | Power Rating .25 WATT | Resistance Value 2K OHM | Operating Voltage 250 V | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Resistor Type Precision Resistor | Element Type Thin Film | Termination Features: Number of Terminations 2 | Termination
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog%20Section&DocLang=English&PartCntxt=7-1676913-9&DocFormat=pdf
+$ENDCMP
+#
+$CMP MFR-25FBF52-150R
+D Metal Film Resistors - Through Hole 150 OHM 1/4W 1%
+K
+F https://componentsearchengine.com/Datasheets/2/MFR-25FBF52-150R.pdf
+$ENDCMP
+#
+$CMP TL072CP
+D Dual Low-Noise JFET-Input General-Purpose Operational Amplifier
+K
+F http://www.ti.com/lit/ds/symlink/tl071a.pdf
+$ENDCMP
+#
+$CMP HV-5RGB60
+D Standard LEDs - Through Hole RGB LED
+K
+F http://www.inolux-corp.com/datasheet/Inolux%20Lamp/TH%20Lamp/HV-5RGBXX%205mm%20Full-Color%20Series.pdf
+$ENDCMP
+#
+#End Doc Library
