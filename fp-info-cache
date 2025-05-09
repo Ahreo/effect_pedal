@@ -1,4 +1,4 @@
-25540674014171554
+25558117681639307
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86751,6 +86751,13 @@ Potentiometer vertical Vishay TS53YL
 3
 3
 Potentiometer_THT
+KRISTOF_POT
+
+
+0
+3
+3
+Potentiometer_THT
 Potentiometer_ACP_CA6-H2,5_Horizontal
 Potentiometer, horizontal, ACP CA6-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
 Potentiometer horizontal ACP CA6-H2,5
@@ -90937,6 +90944,34 @@ rotary encoder illuminated switch vertical
 9
 8
 SamacSys_Parts
+CAPPRD200W50D525H1250
+5x11
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+DIP794W53P254L959H508Q8N
+8-DIP (0.300", 7.62mm)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+FG20
+FG20
+Capacitor
+0
+2
+2
+SamacSys_Parts
+HV5RGB25
+HV-5RGB25-2
+LED
+0
+4
+4
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -90944,9 +90979,44 @@ Integrated Circuit
 8
 8
 SamacSys_Parts
+RCER72A332K0DBH03A
+RCER72A332K0DBH03A-1
+Capacitor
+0
+2
+2
+SamacSys_Parts
+RESAD1550W60L630D230
+YR1_1
+Resistor
+0
+2
+2
+SamacSys_Parts
 RESAD1590W60L630D240
 MFR-25
 Resistor
+0
+2
+2
+SamacSys_Parts
+SF17020F030221RL015
+SF17020F-0302-21R-L-015-2
+Switch
+0
+9
+9
+SamacSys_Parts
+SR211C104KARTR1
+SR21(5.08x3.175x5.08)_1
+Capacitor
+0
+2
+2
+SamacSys_Parts
+SR211C682MARTR1
+SR211C682MARTR1-2
+Capacitor
 0
 2
 2

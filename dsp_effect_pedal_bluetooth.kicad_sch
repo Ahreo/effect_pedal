@@ -5,151 +5,6 @@
 	(uuid "771c2b9e-122f-4f65-bca1-3450fca5e8ad")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Diode:SS34"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS34"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 3A Schottky Diode, SMA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS34_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS34_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCP6002-I_P_1"
 			(pin_names
 				(offset 0)
@@ -1152,603 +1007,6 @@
 				)
 			)
 		)
-		(symbol "PCM_4ms_Inductor:10uH_1.0A_4018"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uH_1.0A_4018"
-				(at 0.635 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-40xx"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10uH, Idc>1.0A, Rdc<=200mOhms, shielded"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "10uH, Idc>1.2A, Rdc<=200mOhms, shielded"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Taiyo Yuden"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "NRS4018T100MDGJ"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "10uH"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Display 2" "1.2A"
-				(at 4.318 -0.0508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "10uH_1.0A_4018_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "10uH_1.0A_4018_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_4ms_Switch:Encoder_Rotary_11mm_SPST_DShaft"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "ENC"
-				(at -5.08 8.255 0)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Encoder_Rotary_11mm_SPST_DShaft"
-				(at -5.08 10.16 0)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "4ms_Encoder:ENC_SPST_12mm"
-				(at 0.635 12.7 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -8.89 -6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Alpha Taiwan"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RE111F-41B3N-20F-20P-N"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
-				(at 2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer 2" "Bourns"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number 2" "PEC11L-4020F-S0020"
-				(at 1.27 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Encoder Rotary Smooth"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*ROTENC-12MM-BUT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Encoder_Rotary_11mm_SPST_DShaft_1_0"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Encoder_Rotary_11mm_SPST_DShaft_1_1"
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 90)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Encoder_Rotary_11mm_SPST_DShaft_2_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 3.048) (xy -0.762 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 3.556) (xy 0.762 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.556) (xy 0.762 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.032 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Encoder_Rotary_11mm_SPST_DShaft_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "SW1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SW1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "SW2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SW2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "REA470M1CBK-0511P_1"
 			(pin_names
 				(offset 0.762)
@@ -1972,208 +1230,15 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:MT3608"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MT3608"
-				(at -3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
-				(at -6.35 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT*23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MT3608_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MT3608_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SamacSys_Parts:FG20X7R1C226MRT06"
+		(symbol "SR211C104KARTR1_1"
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C39"
-				(at 2.032 5.588 0)
+			(property "Reference" "C37"
+				(at 1.27 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2181,8 +1246,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "22uF"
-				(at 3.048 3.81 0)
+			(property "Value" "100nF"
+				(at 3.302 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2190,8 +1255,8 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "FG20"
-				(at -1.524 -7.366 0)
+			(property "Footprint" "SR211C104KARTR1"
+				(at -8.636 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2200,8 +1265,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf"
-				(at -1.524 -9.906 0)
+			(property "Datasheet" "http://datasheets.avx.com/SR-Series.pdf"
+				(at -18.542 28.194 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2210,8 +1275,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm"
-				(at -10.414 -8.636 0)
+			(property "Description" "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C"
+				(at 36.83 23.114 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2219,18 +1284,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm"
-				(at -1.524 -12.446 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "5.5"
-				(at -1.524 -14.986 0)
+			(property "Description_1" "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C"
+				(at -18.542 25.654 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2239,8 +1294,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "TDK"
-				(at -1.524 -17.526 0)
+			(property "Height" "5.08"
+				(at -7.62 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2249,8 +1304,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "FG20X7R1C226MRT06"
-				(at -1.524 -20.066 0)
+			(property "Manufacturer_Name" "Kyocera AVX"
+				(at -7.62 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2259,8 +1314,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "810-FG20X7R1C226MRT6"
-				(at -1.524 -22.606 0)
+			(property "Manufacturer_Part_Number" "SR211C104KARTR1"
+				(at -7.62 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2269,8 +1324,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/FG20X7R1C226MRT06?qs=qf2ddTMq67WyJ0TFf7dwFQ%3D%3D"
-				(at -1.524 -25.146 0)
+			(property "Mouser Part Number" "581-SR211C104KARTR1"
+				(at -18.542 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2279,8 +1334,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 8.89 -19.05 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/SR211C104KARTR1?qs=VbDyUod5BIevel8oj7CoQQ%3D%3D"
+				(at -18.542 18.034 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2289,8 +1344,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" ""
-				(at 8.89 -21.59 0)
+			(property "Arrow Part Number" "SR211C104KARTR1"
+				(at -18.542 15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2299,45 +1354,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "FG20X7R1C226MRT06_0_0"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sr211c104kartr1/avx?utm_currency=USD&region=europe"
+				(at -18.542 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(symbol "FG20X7R1C226MRT06_0_1"
+			(symbol "SR211C104KARTR1_1_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.762 0)
@@ -2384,6 +1411,44 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "SR211C104KARTR1_1_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
 					)
 				)
 			)
@@ -2598,193 +1663,6 @@
 				(polyline
 					(pts
 						(xy -8.89 3.81) (xy 10.16 3.81) (xy 10.16 -7.62) (xy -8.89 -7.62) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "SamacSys_Parts:MFR-25FBF52-150R"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R30"
-				(at 2.032 4.0641 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "150"
-				(at 2.032 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "RESAD1590W60L630D240"
-				(at -4.572 -8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MFR-25FBF52-150R.pdf"
-				(at -4.572 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Metal Film Resistors - Through Hole 150 OHM 1/4W 1%"
-				(at -0.254 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Metal Film Resistors - Through Hole 150 OHM 1/4W 1%"
-				(at -4.572 -13.462 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 5.08 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "YAGEO"
-				(at -4.572 -18.542 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MFR-25FBF52-150R"
-				(at -4.572 -21.082 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "603-MFR-25FBF52-150R"
-				(at -4.572 -23.622 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FBF52-150R?qs=oAGoVhmvjhzXwr6CW7nGjg%3D%3D"
-				(at -4.572 -26.162 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "MFR-25FBF52-150R"
-				(at -4.572 -28.702 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25fbf52-150r/yageo?region=nac"
-				(at -4.572 -31.242 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "MFR-25FBF52-150R_0_0"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MFR-25FBF52-150R_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -3519,191 +2397,6 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:YR1B2K0CC"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R29"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2k"
-				(at 0.254 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "RESAD1550W60L630D230"
-				(at -10.668 -7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog%20Section&DocLang=English&PartCntxt=7-1676913-9&DocFormat=pdf"
-				(at -10.668 -9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Resistance Class 1k  1M | Passive Component Tolerance .1 PCT | Power Rating .25 WATT | Resistance Value 2K OHM | Operating Voltage 250 V | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Resistor Type Precision Resistor | Element Type Thin Film | Termination Features: Number of Terminations 2 | Termination"
-				(at -17.78 7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Resistance Class 1k  1M | Passive Component Tolerance .1 PCT | Power Rating .25 WATT | Resistance Value 2K OHM | Operating Voltage 250 V | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Resistor Type Precision Resistor | Element Type Thin Film | Termination Features: Number of Terminations 2 | Termination"
-				(at -10.668 -11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 6.604 -6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at -10.668 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "YR1B2K0CC"
-				(at -10.668 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "279-YR1B2K0CC"
-				(at -10.668 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/YR1B2K0CC?qs=VHcS2MTj4gZrRDOEg27XKQ%3D%3D"
-				(at -10.668 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "YR1B2K0CC"
-				(at -10.668 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/yr1b2k0cc/te-connectivity"
-				(at -10.668 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "YR1B2K0CC_0_0"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "YR1B2K0CC_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps:MCP6002-I_P"
 			(pin_names
 				(offset 0)
@@ -4118,31 +2811,30 @@
 				)
 			)
 		)
-		(symbol "dk_Rectangular-Connectors-Headers-Male-Pins:0022232041"
+		(symbol "dk_Rectangular-Connectors-Headers-Male-Pins:67996-412HLF"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 1.27 0)
+			(property "Reference" "J3"
+				(at 0 11.43 0)
 				(effects
 					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "0022232041"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm"
+			(property "Value" "67996-412HLF"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:PinHeader_6x2_P2.54mm_Vertical"
 				(at 5.08 5.08 0)
 				(effects
 					(font
@@ -4152,7 +2844,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf"
+			(property "Datasheet" "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf"
 				(at 5.08 7.62 0)
 				(effects
 					(font
@@ -4162,7 +2854,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CONN HEADER VERT 4POS 2.54MM"
+			(property "Description" "CONN HEADER VERT 12POS 2.54MM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4171,7 +2863,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digi-Key_PN" "WM4202-ND"
+			(property "Digi-Key_PN" "609-3219-ND"
 				(at 5.08 10.16 0)
 				(effects
 					(font
@@ -4181,7 +2873,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "0022232041"
+			(property "MPN" "67996-412HLF"
 				(at 5.08 12.7 0)
 				(effects
 					(font
@@ -4211,7 +2903,7 @@
 					(hide yes)
 				)
 			)
-			(property "DK_Datasheet_Link" "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf"
+			(property "DK_Datasheet_Link" "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf"
 				(at 5.08 20.32 0)
 				(effects
 					(font
@@ -4221,7 +2913,7 @@
 					(hide yes)
 				)
 			)
-			(property "DK_Detail_Page" "/product-detail/en/molex/0022232041/WM4202-ND/26671"
+			(property "DK_Detail_Page" "/product-detail/en/amphenol-icc-fci/67996-412HLF/609-3219-ND/1878508"
 				(at 5.08 22.86 0)
 				(effects
 					(font
@@ -4231,7 +2923,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "CONN HEADER VERT 4POS 2.54MM"
+			(property "Description_1" "CONN HEADER VERT 12POS 2.54MM"
 				(at 5.08 25.4 0)
 				(effects
 					(font
@@ -4241,7 +2933,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Molex"
+			(property "Manufacturer" "Amphenol ICC (FCI)"
 				(at 5.08 27.94 0)
 				(effects
 					(font
@@ -4261,7 +2953,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "WM4202-ND KK 6373"
+			(property "ki_keywords" "609-3219-ND BERGSTIK® II"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4270,10 +2962,286 @@
 					(hide yes)
 				)
 			)
-			(symbol "0022232041_1_1"
+			(symbol "67996-412HLF_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "67996-412HLF_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "dk_Rectangular-Connectors-Headers-Male-Pins:B2B-PH-K-S_LF__SN_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "B2B-PH-K-S_LF__SN_"
+				(at 1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:PinHeader_1x2_P2mm_Drill1mm"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN HEADER VERT 2POS 2MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key_PN" "455-1704-ND"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "B2B-PH-K-S(LF)(SN)"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Connectors, Interconnects"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Rectangular Connectors - Headers, Male Pins"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "CONN HEADER VERT 2POS 2MM"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST Sales America Inc."
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "455-1704-ND PH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B-PH-K-S_LF__SN__1_1"
 				(rectangle
 					(start -1.27 0)
-					(end 8.89 -2.54)
+					(end 3.81 -2.54)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4296,28 +3264,6 @@
 				(rectangle
 					(start 2.286 -1.143)
 					(end 2.794 -1.651)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 4.826 -1.143)
-					(end 5.334 -1.651)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 7.366 -1.143)
-					(end 7.874 -1.651)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4355,42 +3301,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5152,122 +4062,116 @@
 		)
 	)
 	(junction
-		(at 38.1 124.46)
+		(at 241.3 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03cdfab5-b58b-44ca-ae57-8506edfee33b")
+	)
+	(junction
+		(at 59.69 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0556676e-663b-4727-b363-ba185235fe8b")
+	)
+	(junction
+		(at 34.29 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06d14418-e3fe-480c-baf8-a7e2b3c47f7a")
 	)
 	(junction
-		(at 120.65 124.46)
+		(at 116.84 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2105fe55-b890-48c4-bc91-fbfc1fd2f3a0")
 	)
 	(junction
-		(at 269.24 24.13)
+		(at 59.69 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32ac92e3-9d52-40ab-a672-e90b2d68f629")
+		(uuid "24f3b929-84f6-41a7-915b-80a508488919")
 	)
 	(junction
-		(at 35.56 133.35)
+		(at 233.68 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33c65756-cd6d-4a06-9d59-852f1bbcf1ba")
+	)
+	(junction
+		(at 31.75 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37958c2b-d2ba-4f63-9e4a-c2d6ff364150")
 	)
 	(junction
-		(at 259.08 38.1)
+		(at 241.3 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37d58b1c-6a01-4960-9f25-e44f1b9ef45e")
+		(uuid "49c7dfd2-9858-4096-a051-db34f919e0cc")
 	)
 	(junction
-		(at 223.52 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4971b3c2-7591-48e6-9e6d-0a640e1dbbc4")
-	)
-	(junction
-		(at 125.73 124.46)
+		(at 121.92 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55776f76-e2ee-48e7-890e-8493ac952d14")
 	)
 	(junction
-		(at 228.6 80.01)
+		(at 260.35 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b795940-13cd-40bf-a335-9a53f013d5f5")
 	)
 	(junction
-		(at 76.2 140.97)
+		(at 233.68 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67956955-d45b-402c-9170-5bd3e1d4edcc")
+	)
+	(junction
+		(at 72.39 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f085133-da42-47dc-9809-5530818e317b")
 	)
 	(junction
-		(at 53.34 120.65)
+		(at 49.53 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82b53ecd-58f6-4074-8d81-7ee73915b542")
 	)
 	(junction
-		(at 33.02 124.46)
+		(at 29.21 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86616fbd-9c86-410d-8e53-8a99840bec0e")
 	)
 	(junction
-		(at 163.83 140.97)
+		(at 160.02 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96cf6576-f78b-4bbc-9c3f-bde0a65394c4")
 	)
 	(junction
-		(at 246.38 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d13bdfd2-86a5-4c69-aa09-4f1211c1c734")
-	)
-	(junction
-		(at 223.52 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e036e8d7-9f15-42ea-ad88-7cb290593e51")
-	)
-	(junction
-		(at 259.08 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0666915-e269-43c8-85a6-64f6334db4b8")
-	)
-	(junction
-		(at 223.52 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e11af4ba-ad9f-4193-83fb-9436645fc60c")
-	)
-	(junction
-		(at 224.79 71.12)
+		(at 256.54 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3fc887e-82e4-454c-b416-98fa40d1f3a8")
 	)
 	(junction
-		(at 123.19 133.35)
+		(at 119.38 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f68e8799-9c59-4c30-8c8f-fdc0a946f5a9")
 	)
 	(junction
-		(at 232.41 71.12)
+		(at 264.16 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe484309-771d-4e75-b06f-f0060eca95c3")
 	)
 	(wire
 		(pts
-			(xy 46.99 140.97) (xy 76.2 140.97)
+			(xy 43.18 146.05) (xy 72.39 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5277,7 +4181,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 35.56) (xy 68.58 35.56)
+			(xy 55.88 35.56) (xy 59.69 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5287,17 +4191,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 24.13) (xy 259.08 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "027796c2-31e8-4c14-a278-1edc2382afa3")
-	)
-	(wire
-		(pts
-			(xy 76.2 118.11) (xy 80.01 118.11)
+			(xy 72.39 123.19) (xy 134.62 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5307,7 +4201,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 121.92) (xy 163.83 118.11)
+			(xy 160.02 109.22) (xy 160.02 127)
 		)
 		(stroke
 			(width 0)
@@ -5317,37 +4211,27 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 45.72) (xy 116.84 45.72)
+			(xy 100.33 45.72) (xy 106.68 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04d12c47-dd40-4fcd-8da3-e3cf3b87477f")
+		(uuid "069f2a74-108c-4d9d-96a5-fbdc2fda9360")
 	)
 	(wire
 		(pts
-			(xy 259.08 39.37) (xy 259.08 38.1)
+			(xy 231.14 66.04) (xy 242.57 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05b9d3a2-7d31-4e3c-84a6-639af27d2ca7")
+		(uuid "08f21d73-c17f-49c4-8abc-2a0c352caca2")
 	)
 	(wire
 		(pts
-			(xy 163.83 118.11) (xy 167.64 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0873bb0f-bf11-4b2f-884e-7360771dc834")
-	)
-	(wire
-		(pts
-			(xy 228.6 80.01) (xy 232.41 80.01)
+			(xy 260.35 40.64) (xy 264.16 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5357,7 +4241,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 129.54) (xy 134.62 140.97)
+			(xy 130.81 134.62) (xy 130.81 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5367,17 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 24.13) (xy 269.24 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09decc5b-876a-46e7-ab41-8948c7f03dc6")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 100.33 58.42)
+			(xy 100.33 58.42) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5387,27 +4261,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 33.02) (xy 227.33 33.02)
+			(xy 231.14 60.96) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d0ec658-925c-46db-9f68-b9d5084327ec")
+		(uuid "0dd65184-b0ed-4e72-953f-336db917af1b")
 	)
 	(wire
 		(pts
-			(xy 66.04 38.1) (xy 68.58 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0da4f39e-bd03-48e5-905b-1b69f017923a")
-	)
-	(wire
-		(pts
-			(xy 35.56 133.35) (xy 35.56 134.62)
+			(xy 31.75 138.43) (xy 31.75 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5417,17 +4281,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 24.13) (xy 269.24 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6113a6-aa46-4589-b372-9653c9d57455")
-	)
-	(wire
-		(pts
-			(xy 38.1 124.46) (xy 38.1 125.73)
+			(xy 34.29 129.54) (xy 34.29 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5437,7 +4291,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 129.54) (xy 46.99 129.54)
+			(xy 227.33 29.21) (xy 227.33 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f68e1e-c290-42df-b40a-40d916cd492b")
+	)
+	(wire
+		(pts
+			(xy 44.45 134.62) (xy 43.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5447,7 +4311,37 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 133.35) (xy 123.19 134.62)
+			(xy 64.77 66.04) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6f0c93-4460-4d89-9935-6ebb1a8e6306")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2007ed7c-40e8-4862-9dce-8178f5b10148")
+	)
+	(wire
+		(pts
+			(xy 247.65 55.88) (xy 241.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2323570a-dcdb-4391-b445-d2711e0f9c0c")
+	)
+	(wire
+		(pts
+			(xy 119.38 138.43) (xy 119.38 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 133.35) (xy 123.19 133.35)
+			(xy 116.84 138.43) (xy 119.38 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5467,7 +4361,37 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 120.65) (xy 53.34 120.65)
+			(xy 134.62 111.76) (xy 134.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e42f02-ca93-4fa8-a870-99b470023e5d")
+	)
+	(wire
+		(pts
+			(xy 236.22 29.21) (xy 236.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d360f77-dfe1-4634-9333-55c9f46015f8")
+	)
+	(wire
+		(pts
+			(xy 102.87 129.54) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3524eceb-b4e6-409d-afa2-1f97b86ea9ed")
+	)
+	(wire
+		(pts
+			(xy 52.07 125.73) (xy 49.53 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5477,17 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 33.02) (xy 242.57 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3db45673-35d1-4f84-8f49-30e746d6411e")
-	)
-	(wire
-		(pts
-			(xy 38.1 124.46) (xy 48.26 124.46)
+			(xy 34.29 129.54) (xy 44.45 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5497,17 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 24.13) (xy 246.38 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "406cfde5-ae52-499f-bed0-1c0f82a16290")
-	)
-	(wire
-		(pts
-			(xy 125.73 124.46) (xy 125.73 125.73)
+			(xy 121.92 129.54) (xy 121.92 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 140.97) (xy 163.83 140.97)
+			(xy 130.81 146.05) (xy 160.02 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5537,27 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 58.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514455cb-d993-48e6-a758-7453c2da6e21")
-	)
-	(wire
-		(pts
-			(xy 57.15 92.71) (xy 58.42 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520f808f-eb47-4428-a145-257a53c3a883")
-	)
-	(wire
-		(pts
-			(xy 232.41 71.12) (xy 240.03 71.12)
+			(xy 264.16 31.75) (xy 271.78 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5567,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 124.46) (xy 125.73 124.46)
+			(xy 116.84 129.54) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5577,17 +4461,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 48.26) (xy 234.95 43.18)
+			(xy 227.33 34.29) (xy 224.79 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e07f264-c981-4a92-be06-470af0ce36f5")
+		(uuid "5edb771e-19bc-4f92-84fe-7c865c7bf4f0")
 	)
 	(wire
 		(pts
-			(xy 53.34 119.38) (xy 53.34 120.65)
+			(xy 49.53 124.46) (xy 49.53 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5597,7 +4481,27 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 133.35) (xy 38.1 133.35)
+			(xy 233.68 36.83) (xy 233.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e81c35-fa97-47a1-b29a-6e5dd7cc9569")
+	)
+	(wire
+		(pts
+			(xy 233.68 36.83) (xy 236.22 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d17c26-8771-4b88-bc2d-97991b65924c")
+	)
+	(wire
+		(pts
+			(xy 31.75 138.43) (xy 34.29 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5607,27 +4511,27 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 38.1) (xy 102.87 38.1)
+			(xy 100.33 38.1) (xy 106.68 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d8353e3-dd0a-433b-8942-a65051451711")
+		(uuid "6db6b49c-3c06-461f-9e8c-79550585dde0")
 	)
 	(wire
 		(pts
-			(xy 223.52 38.1) (xy 227.33 38.1)
+			(xy 233.68 36.83) (xy 227.33 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7481bd74-131a-4c07-88e9-d9c4bd14f542")
+		(uuid "766bd503-6a1a-49f0-bf60-f7eeecdf9daf")
 	)
 	(wire
 		(pts
-			(xy 33.02 124.46) (xy 38.1 124.46)
+			(xy 29.21 129.54) (xy 34.29 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5637,7 +4541,37 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 132.08) (xy 163.83 140.97)
+			(xy 241.3 63.5) (xy 231.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78822b38-37f6-4244-8d26-d9da21462ac3")
+	)
+	(wire
+		(pts
+			(xy 39.37 68.58) (xy 39.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791f779e-283c-4e67-8f76-fd9c934aa72d")
+	)
+	(wire
+		(pts
+			(xy 233.68 29.21) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a11e463-ec2d-42b9-8a67-7edb0f01ab60")
+	)
+	(wire
+		(pts
+			(xy 160.02 137.16) (xy 160.02 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5647,7 +4581,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 80.01) (xy 228.6 81.28)
+			(xy 260.35 40.64) (xy 260.35 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5657,7 +4591,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 129.54) (xy 134.62 129.54)
+			(xy 132.08 134.62) (xy 130.81 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5667,17 +4601,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 24.13) (xy 246.38 33.02)
+			(xy 39.37 72.39) (xy 64.77 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ea6870a-4496-4c26-8972-2e38c4af1454")
+		(uuid "8225e0ae-3258-40e6-bbf4-cae42710297b")
 	)
 	(wire
 		(pts
-			(xy 33.02 124.46) (xy 33.02 125.73)
+			(xy 29.21 129.54) (xy 29.21 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5687,37 +4621,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 33.02) (xy 223.52 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "879d127d-ef00-4a4b-96d7-0c81908cbf4a")
-	)
-	(wire
-		(pts
-			(xy 223.52 24.13) (xy 231.14 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c04a98-7920-458a-9c3e-e7a686333435")
-	)
-	(wire
-		(pts
-			(xy 215.9 35.56) (xy 223.52 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bf50f83-0679-443f-a579-41237b00531a")
-	)
-	(wire
-		(pts
-			(xy 100.33 48.26) (xy 102.87 48.26)
+			(xy 100.33 48.26) (xy 106.68 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5727,27 +4631,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 90.17) (xy 58.42 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cac45f2-7b52-4c4b-b834-8be74a969c26")
-	)
-	(wire
-		(pts
-			(xy 269.24 48.26) (xy 269.24 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e7e32d2-4a76-43a7-92df-1b1918d4367b")
-	)
-	(wire
-		(pts
-			(xy 123.19 133.35) (xy 125.73 133.35)
+			(xy 119.38 138.43) (xy 121.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5757,27 +4641,57 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 24.13) (xy 223.52 33.02)
+			(xy 123.19 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9388e603-966c-4e0d-8d3e-ffd960073239")
+		(uuid "9059918b-c61d-4cc4-a7c7-2194caacc763")
 	)
 	(wire
 		(pts
-			(xy 137.16 60.96) (xy 100.33 60.96)
+			(xy 236.22 36.83) (xy 236.22 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a199e32-cf55-49a1-966c-5f846a82427a")
+		(uuid "935d906c-17e9-4b3e-8fc9-95481e9168d6")
 	)
 	(wire
 		(pts
-			(xy 125.73 124.46) (xy 135.89 124.46)
+			(xy 241.3 60.96) (xy 241.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a0ff74-b9bb-4257-8868-df4758d362a5")
+	)
+	(wire
+		(pts
+			(xy 241.3 55.88) (xy 241.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e8e856-fdb6-40d3-b382-c94d3234b59c")
+	)
+	(wire
+		(pts
+			(xy 59.69 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2a9d91-f934-41ea-92ca-a5a2125288a1")
+	)
+	(wire
+		(pts
+			(xy 121.92 129.54) (xy 132.08 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5787,7 +4701,27 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 127) (xy 68.58 127)
+			(xy 77.47 116.84) (xy 85.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a60a0e-e17c-4ad9-89dc-a57e7cd948cd")
+	)
+	(wire
+		(pts
+			(xy 62.23 38.1) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a427d9ea-de8e-46b9-a064-6ab215f7fa69")
+	)
+	(wire
+		(pts
+			(xy 59.69 132.08) (xy 64.77 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5797,27 +4731,17 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 35.56) (xy 259.08 38.1)
+			(xy 64.77 72.39) (xy 64.77 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5cc7028-0d0d-4ae2-91be-1bf9dfb33cc7")
+		(uuid "a5587a85-e233-40c1-b511-b0188d568c6f")
 	)
 	(wire
 		(pts
-			(xy 242.57 38.1) (xy 259.08 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7383eeb-e16c-492c-ad0a-a34426c4ea15")
-	)
-	(wire
-		(pts
-			(xy 232.41 71.12) (xy 232.41 72.39)
+			(xy 264.16 31.75) (xy 264.16 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5837,7 +4761,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 232.41 71.12)
+			(xy 231.14 55.88) (xy 241.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0a2cc8-119e-408f-8fde-046ddefa156d")
+	)
+	(wire
+		(pts
+			(xy 256.54 31.75) (xy 264.16 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5847,7 +4781,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 100.33 53.34)
+			(xy 100.33 53.34) (xy 106.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5857,17 +4791,57 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 30.48) (xy 68.58 30.48)
+			(xy 77.47 109.22) (xy 85.09 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7e0cb00-9c29-4be1-853c-365ede710884")
+		(uuid "b5b8a7bc-9c0c-4bd7-ad56-91169d610537")
 	)
 	(wire
 		(pts
-			(xy 33.02 133.35) (xy 35.56 133.35)
+			(xy 231.14 53.34) (xy 242.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b655ecef-ad83-4841-b579-6d866acff7d3")
+	)
+	(wire
+		(pts
+			(xy 77.47 114.3) (xy 85.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76510de-92c4-4448-a30b-4d7f63dde799")
+	)
+	(wire
+		(pts
+			(xy 77.47 111.76) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9267b0-9eda-4d8c-a096-0bd163411d53")
+	)
+	(wire
+		(pts
+			(xy 241.3 58.42) (xy 231.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c089b812-338f-48b8-9548-408cb5f46444")
+	)
+	(wire
+		(pts
+			(xy 29.21 138.43) (xy 31.75 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5877,7 +4851,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 127) (xy 156.21 127)
+			(xy 147.32 132.08) (xy 152.4 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5887,7 +4861,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 80.01) (xy 228.6 80.01)
+			(xy 256.54 40.64) (xy 260.35 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5897,17 +4871,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 24.13) (xy 274.32 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d27636b1-5190-44d8-9dfe-e04dda87bbf9")
-	)
-	(wire
-		(pts
-			(xy 46.99 129.54) (xy 46.99 140.97)
+			(xy 43.18 134.62) (xy 43.18 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5917,17 +4881,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 87.63) (xy 24.13 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e04ce3-924b-4915-98db-f328507ee483")
-	)
-	(wire
-		(pts
-			(xy 224.79 69.85) (xy 224.79 71.12)
+			(xy 256.54 30.48) (xy 256.54 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5937,17 +4891,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 40.64) (xy 68.58 40.64)
+			(xy 100.33 43.18) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d60d1896-f958-4825-9d5c-e2794b146f07")
+		(uuid "d66415da-4326-4f4b-8359-d7696512c6f9")
 	)
 	(wire
 		(pts
-			(xy 76.2 132.08) (xy 76.2 140.97)
+			(xy 227.33 29.21) (xy 233.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d829903a-0226-4e59-b32c-e9e532940cce")
+	)
+	(wire
+		(pts
+			(xy 72.39 137.16) (xy 72.39 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5957,47 +4921,27 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 95.25) (xy 24.13 95.25)
+			(xy 62.23 40.64) (xy 68.58 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dae15d28-0551-4a10-b5d1-615201d7fe96")
+		(uuid "dd6c721c-67bf-467e-bfc0-f0e0c3b9b9d0")
 	)
 	(wire
 		(pts
-			(xy 259.08 48.26) (xy 259.08 46.99)
+			(xy 59.69 30.48) (xy 68.58 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "deeeab80-fffc-4154-817d-bc5640771562")
+		(uuid "dda6f672-8f38-4607-b0fd-13a72dbc3394")
 	)
 	(wire
 		(pts
-			(xy 100.33 50.8) (xy 116.84 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df2da3c2-ff33-478c-b142-09847b0134a1")
-	)
-	(wire
-		(pts
-			(xy 100.33 55.88) (xy 116.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2f993fa-f963-42fd-94ab-b1b62ae733c9")
-	)
-	(wire
-		(pts
-			(xy 240.03 71.12) (xy 240.03 69.85)
+			(xy 271.78 31.75) (xy 271.78 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6007,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 121.92) (xy 76.2 118.11)
+			(xy 72.39 127) (xy 72.39 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6017,7 +4961,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 124.46) (xy 120.65 125.73)
+			(xy 116.84 129.54) (xy 116.84 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6037,57 +4981,77 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 24.13) (xy 250.19 24.13)
+			(xy 160.02 109.22) (xy 129.54 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb148047-ebe8-43d0-a985-b656ac5f871e")
+		(uuid "ede477e6-2231-46de-a6a1-19707395d6da")
 	)
 	(wire
 		(pts
-			(xy 223.52 35.56) (xy 223.52 38.1)
+			(xy 15.24 129.54) (xy 21.59 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec7d57b1-9516-4037-83f6-18d4828186d8")
+		(uuid "f473c12a-60cf-4cce-9a91-f14e861208bb")
 	)
 	(wire
 		(pts
-			(xy 223.52 38.1) (xy 223.52 40.64)
+			(xy 100.33 66.04) (xy 128.27 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6a912fb-89ac-4931-af9d-d2a0f1d30ad5")
+		(uuid "f55be091-4e79-4c7e-a898-d778df5d8e3e")
 	)
 	(wire
 		(pts
-			(xy 259.08 24.13) (xy 259.08 27.94)
+			(xy 227.33 36.83) (xy 227.33 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7fd600b-45c7-48a2-afcb-2253b239ee6a")
+		(uuid "f55eab0b-91a5-416d-9606-1613d1fcfaa6")
 	)
 	(wire
 		(pts
-			(xy 215.9 34.29) (xy 215.9 35.56)
+			(xy 227.33 31.75) (xy 224.79 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faf99dbf-7a67-4ef7-bf63-f7c17f83817a")
+		(uuid "f5e195bc-ac02-4708-b560-ac46408b6ae1")
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 224.79 72.39)
+			(xy 236.22 29.21) (xy 233.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa069a0e-2b79-42d0-97ea-2cab7b944d75")
+	)
+	(wire
+		(pts
+			(xy 123.19 63.5) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa778cdf-402f-4c3d-832e-2663c75fe13a")
+	)
+	(wire
+		(pts
+			(xy 256.54 31.75) (xy 256.54 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6095,9 +5059,41 @@
 		)
 		(uuid "fbd61fff-0ec9-41fc-8eda-95064073274b")
 	)
+	(wire
+		(pts
+			(xy 247.65 60.96) (xy 241.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8c5f9a-c968-457e-8fdc-f6b39955d669")
+	)
+	(wire
+		(pts
+			(xy 55.88 30.48) (xy 59.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3a3fa7-9505-4abd-b79c-e52403dc4bd5")
+	)
+	(rectangle
+		(start 12.7 100.33)
+		(end 184.15 160.02)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d03d8da-adcc-4229-859c-a0cef66d7f7d)
+	)
 	(rectangle
 		(start 213.36 15.24)
-		(end 281.94 87.63)
+		(end 281.94 69.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6108,20 +5104,31 @@
 		(uuid 68916584-285c-44fb-b561-6d83502d73ba)
 	)
 	(rectangle
-		(start 127 105.41)
-		(end 180.34 110.49)
+		(start 12.7 19.05)
+		(end 158.75 78.74)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
 		)
-		(uuid fe512e6a-4378-4171-a9cf-7526440b8291)
+		(uuid b539210e-cbc0-4370-8c0a-a29e75de53ec)
+	)
+	(text "PWM Controlled Current Sink"
+		(exclude_from_sim no)
+		(at 40.64 162.814 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 73 90 1)
+			)
+		)
+		(uuid "165224e9-b456-4512-b435-4917d4ab8d52")
 	)
 	(text "LED to be used for \ndetermine effect 'state'"
 		(exclude_from_sim no)
-		(at 24.13 39.878 0)
+		(at 25.146 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6131,7 +5138,7 @@
 	)
 	(text "Power Supply"
 		(exclude_from_sim no)
-		(at 226.314 91.44 0)
+		(at 226.06 72.644 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6151,15 +5158,15 @@
 		)
 		(uuid "74ec7c95-732b-45b2-a79d-08a9dd24948a")
 	)
-	(text "2N5088 PBFREE == 2N5088U_Obsolete replacement\n"
+	(text "regulator en by default. \nEN can be left floating\n"
 		(exclude_from_sim no)
-		(at 153.67 107.95 0)
+		(at 262.89 64.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ac6ac8a8-7f59-4445-8b5c-c388be6ac915")
+		(uuid "9bb2af48-7b66-4bb6-838b-79ff15846576")
 	)
 	(text "TODO:\n- adjustable gain for input OpAmp?\n- check caps. Maybe make components\n  so better sizes? (learn to model)\n- vet the cap's ripple current. \n  Assume ok for now\n- add connectors to breakout signals\n\n"
 		(exclude_from_sim no)
@@ -6172,269 +5179,192 @@
 		)
 		(uuid "c229d87d-12de-49c4-9b36-1c7795b5a777")
 	)
-	(global_label "U4A"
-		(shape output)
-		(at 102.87 48.26 0)
-		(fields_autoplaced yes)
+	(text "PWM Controlled Current Sink"
+		(exclude_from_sim no)
+		(at 40.64 81.534 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07691174-9c37-4228-b549-b1dc48f6db30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.4838 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+				(size 2.54 2.54)
+				(color 255 73 90 1)
 			)
 		)
+		(uuid "d8143329-24b3-4f96-b915-7039d0d82201")
 	)
-	(global_label "U4C"
-		(shape output)
-		(at 102.87 38.1 0)
+	(label "PWM1"
+		(at 102.87 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "0ed73011-0156-49ff-9cc4-1b4b9885690f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.6652 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "188e157f-3519-47db-90a0-b1107ecaf6b3")
 	)
-	(global_label "PWM1"
-		(shape input)
-		(at 113.03 124.46 180)
+	(label "V_BAT"
+		(at 106.68 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "3a0de052-d041-4a62-857d-187ef25725d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.6625 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "1f787894-5540-4304-9552-2edadb46f577")
 	)
-	(global_label "U4B"
-		(shape output)
-		(at 66.04 38.1 180)
+	(label "U4A"
+		(at 106.68 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "48eb8131-046c-461b-9c90-bbe92e2b1f75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2448 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "22867976-6e3f-4303-957a-ba677973da2b")
 	)
-	(global_label "PWM0"
-		(shape input)
-		(at 25.4 124.46 180)
+	(label "U4D"
+		(at 77.47 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "658f028f-2abc-44aa-8d5a-9ccad4dde84d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0325 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "28873a4f-5562-4fdf-ba9c-b03d28c13dd6")
 	)
-	(global_label "PWM0"
-		(shape output)
-		(at 101.6 58.42 0)
+	(label "PUSH_DETECTION"
+		(at 102.87 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "685d75c3-1d6b-4dc0-97f4-6083452f87b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.9675 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "2ee8f230-0ac3-4694-bf47-ef4a47594dc8")
 	)
-	(global_label "EFFECT_OUT"
-		(shape output)
-		(at 57.15 90.17 180)
+	(label "V_BAT"
+		(at 236.22 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "6976120e-6286-4f4b-a00f-be051d131fe8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.8558 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "3a0d70a6-9f25-4788-a95d-68f11343afc0")
 	)
-	(global_label "DELAY_CURRENT_1"
-		(shape output)
-		(at 167.64 118.11 0)
+	(label "PWM0"
+		(at 15.24 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "85443730-2ae8-402d-92c2-1e358565a8f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9818 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "4596e429-2a7c-4e31-a001-980bc2936071")
 	)
-	(global_label "PWM1"
-		(shape output)
-		(at 101.6 53.34 0)
+	(label "PWM1"
+		(at 106.68 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "b08c2148-61af-4069-b35f-7aaedcab1d0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.9675 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "46b1ae10-8fdd-4438-9d20-8c44a1caad8f")
 	)
-	(global_label "DELAY_CURRENT_0"
-		(shape output)
-		(at 80.01 118.11 0)
+	(label "PO_V_EN"
+		(at 242.57 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "c8e892d2-b9a2-4b82-b867-7e3339a5f7ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.3518 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "52c0f73b-e920-421b-bad9-64a35411dbde")
 	)
-	(global_label "AUDIO_IN"
-		(shape output)
-		(at 57.15 92.71 180)
+	(label "U4A"
+		(at 77.47 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "cc30b5d1-2fa3-4248-a32a-7b740f40afbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.6375 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "65f25952-e5d6-4523-b1e0-aba5b275dd6d")
 	)
-	(global_label "U4D"
-		(shape output)
-		(at 66.04 40.64 180)
+	(label "PWM0"
+		(at 106.68 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "ce90823d-c397-4a6b-b0c5-b72affdc34eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2448 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "6e2a6bd3-ab55-4af6-be09-cb50fe45565a")
+	)
+	(label "U4B"
+		(at 62.23 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "7f3a7616-72b5-449e-bd06-ff081c0fbf0d")
+	)
+	(label "U4B"
+		(at 77.47 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc9370e7-2141-4e82-9707-d0a88260c128")
+	)
+	(label "U4C"
+		(at 106.68 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd63684f-d0fc-4e48-a213-1c14c5c1786f")
+	)
+	(label "U4C"
+		(at 77.47 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec773301-bed2-49cb-bdbf-52b740ec3a20")
+	)
+	(label "U4D"
+		(at 62.23 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f81d0758-b40a-4a4c-a653-3f54fcd2c640")
 	)
 	(global_label "RESET"
 		(shape input)
@@ -6460,7 +5390,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MFR-25FRF52-4K7")
-		(at 76.2 153.67 90)
+		(at 72.39 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6468,7 +5398,7 @@
 		(dnp no)
 		(uuid "03586059-1ef6-4a3f-8976-0fee2c62c15f")
 		(property "Reference" "R2"
-			(at 71.882 144.272 0)
+			(at 68.072 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +5407,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 73.66 142.748 0)
+			(at 69.85 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,8 +5415,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 74.93 139.7 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 71.12 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,7 +5426,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf"
-			(at 77.47 139.7 0)
+			(at 73.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +5436,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 79.248 153.67 0)
+			(at 75.438 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +5445,7 @@
 			)
 		)
 		(property "Description_1" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 80.01 139.7 0)
+			(at 76.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +5455,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 82.55 139.7 0)
+			(at 78.74 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +5465,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 85.09 139.7 0)
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +5475,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FRF52-4K7"
-			(at 87.63 139.7 0)
+			(at 83.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +5485,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-MFR-25FRF52-4K7"
-			(at 90.17 139.7 0)
+			(at 86.36 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +5495,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D"
-			(at 92.71 139.7 0)
+			(at 88.9 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +5505,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MFR-25FRF52-4K7"
-			(at 95.25 139.7 0)
+			(at 91.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,12 +5515,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac"
-			(at 97.79 139.7 0)
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 72.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6610,8 +5549,189 @@
 		)
 	)
 	(symbol
+		(lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:67996-412HLF")
+		(at 226.06 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04ca4725-02d1-4b83-8555-af929e07af72")
+		(property "Reference" "J3"
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "67996-412HLF"
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 220.98 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 12POS 2.54MM"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "609-3219-ND"
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "67996-412HLF"
+			(at 220.98 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Connectors, Interconnects"
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Rectangular Connectors - Headers, Male Pins"
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/amphenol-icc-fci/67996-412HLF/609-3219-ND/1878508"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "CONN HEADER VERT 12POS 2.54MM"
+			(at 220.98 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC (FCI)"
+			(at 220.98 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31a2a86a-4b31-42df-ba48-ff20011aed6f")
+		)
+		(pin "4"
+			(uuid "be5528af-77df-4529-a3bf-39784974cc14")
+		)
+		(pin "1"
+			(uuid "bdf22e81-5a7d-439e-b876-7afddb58ad9e")
+		)
+		(pin "6"
+			(uuid "ec295eb4-cdf9-4820-9258-11dfddc9d894")
+		)
+		(pin "5"
+			(uuid "cde19531-1f17-405d-8704-f4aa4fe91d96")
+		)
+		(pin "3"
+			(uuid "f86b22d3-395e-4e08-87d2-8108b3fead54")
+		)
+		(instances
+			(project ""
+				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:MFR-25FRF52-4K7")
-		(at 163.83 153.67 90)
+		(at 160.02 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6619,7 +5739,7 @@
 		(dnp no)
 		(uuid "15a5ea37-9f78-408f-9feb-0c3b4281c4d6")
 		(property "Reference" "R4"
-			(at 159.512 144.272 0)
+			(at 155.702 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +5748,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 161.29 142.748 0)
+			(at 157.48 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,8 +5756,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 162.56 139.7 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +5767,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf"
-			(at 165.1 139.7 0)
+			(at 161.29 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,7 +5777,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 166.878 153.67 0)
+			(at 163.068 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +5786,7 @@
 			)
 		)
 		(property "Description_1" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 167.64 139.7 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +5796,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 170.18 139.7 0)
+			(at 166.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +5806,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 172.72 139.7 0)
+			(at 168.91 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +5816,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FRF52-4K7"
-			(at 175.26 139.7 0)
+			(at 171.45 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +5826,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-MFR-25FRF52-4K7"
-			(at 177.8 139.7 0)
+			(at 173.99 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +5836,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D"
-			(at 180.34 139.7 0)
+			(at 176.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +5846,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MFR-25FRF52-4K7"
-			(at 182.88 139.7 0)
+			(at 179.07 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,12 +5856,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac"
-			(at 185.42 139.7 0)
+			(at 181.61 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6762,7 +5891,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MFR-25FRF52-4K7")
-		(at 20.32 124.46 0)
+		(at 16.51 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6770,7 +5899,7 @@
 		(dnp no)
 		(uuid "1d994564-0bcf-4d91-9fe0-6a589bca46a9")
 		(property "Reference" "R21"
-			(at 30.988 120.142 0)
+			(at 27.178 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +5908,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 31.242 121.92 0)
+			(at 27.432 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,8 +5916,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 34.29 123.19 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 30.48 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6798,7 +5927,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf"
-			(at 34.29 125.73 0)
+			(at 30.48 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,7 +5937,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 20.32 127.508 0)
+			(at 16.51 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6817,7 +5946,7 @@
 			)
 		)
 		(property "Description_1" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 34.29 128.27 0)
+			(at 30.48 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +5956,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 34.29 130.81 0)
+			(at 30.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +5966,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 34.29 133.35 0)
+			(at 30.48 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +5976,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FRF52-4K7"
-			(at 34.29 135.89 0)
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +5986,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-MFR-25FRF52-4K7"
-			(at 34.29 138.43 0)
+			(at 30.48 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +5996,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D"
-			(at 34.29 140.97 0)
+			(at 30.48 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +6006,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MFR-25FRF52-4K7"
-			(at 34.29 143.51 0)
+			(at 30.48 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,12 +6016,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac"
-			(at 34.29 146.05 0)
+			(at 30.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 16.51 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6912,160 +6050,9 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:FG20X7R1C226MRT06")
-		(at 269.24 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e0e7935-0d61-4179-b4fb-32de2358b63a")
-		(property "Reference" "C40"
-			(at 272.288 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 272.288 32.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "FG20"
-			(at 276.606 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf"
-			(at 279.146 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm"
-			(at 277.876 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm"
-			(at 281.686 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.5"
-			(at 284.226 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 286.766 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FG20X7R1C226MRT06"
-			(at 289.306 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "810-FG20X7R1C226MRT6"
-			(at 291.846 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/FG20X7R1C226MRT06?qs=qf2ddTMq67WyJ0TFf7dwFQ%3D%3D"
-			(at 294.386 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 288.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 290.83 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32dde48c-e52e-45bc-9a7e-10c168a5b4c7")
-		)
-		(pin "2"
-			(uuid "49f72339-23a1-4de8-948d-737c38ad1d12")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "MCP6002-I_P_1")
 		(lib_id "dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps:MCP6002-I_P")
-		(at 55.88 127 0)
+		(at 52.07 132.08 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7073,7 +6060,7 @@
 		(dnp no)
 		(uuid "26432763-4d06-4c24-9a39-ffb091cdc7bd")
 		(property "Reference" "U1"
-			(at 59.182 130.556 0)
+			(at 55.372 135.636 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7081,7 +6068,7 @@
 			)
 		)
 		(property "Value" "MCP6002-I_P"
-			(at 65.024 132.842 0)
+			(at 61.214 137.922 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7089,7 +6076,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:DIP-8_W7.62mm"
-			(at 60.96 121.92 0)
+			(at 57.15 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7099,7 +6086,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011705"
-			(at 60.96 119.38 0)
+			(at 57.15 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7109,7 +6096,7 @@
 			)
 		)
 		(property "Description" "IC OPAMP GP 2 CIRCUIT 8DIP"
-			(at 75.438 124.46 0)
+			(at 71.628 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +6105,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "MCP6002-I/P-ND"
-			(at 60.96 116.84 0)
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7128,7 +6115,7 @@
 			)
 		)
 		(property "MPN" "MCP6002-I/P"
-			(at 60.96 114.3 0)
+			(at 57.15 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7138,7 +6125,7 @@
 			)
 		)
 		(property "Category" "Integrated Circuits (ICs)"
-			(at 60.96 111.76 0)
+			(at 57.15 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7148,7 +6135,7 @@
 			)
 		)
 		(property "Family" "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps"
-			(at 60.96 109.22 0)
+			(at 57.15 114.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7158,7 +6145,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011705"
-			(at 60.96 106.68 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7168,7 +6155,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/microchip-technology/MCP6002-I-P/MCP6002-I-P-ND/500875"
-			(at 60.96 104.14 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7178,7 +6165,7 @@
 			)
 		)
 		(property "Description_1" "IC OPAMP GP 2 CIRCUIT 8DIP"
-			(at 60.96 101.6 0)
+			(at 57.15 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7188,7 +6175,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 60.96 99.06 0)
+			(at 57.15 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7198,12 +6185,21 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 60.96 96.52 0)
+			(at 57.15 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7312,25 +6308,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Inductor:10uH_1.0A_4018")
-		(at 234.95 24.13 90)
+		(lib_id "power:+3V3")
+		(at 247.65 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f0ae1d6-c8c7-40f4-b96b-62b4e72c305a")
-		(property "Reference" "L2"
-			(at 234.95 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH_1.0A_4018"
-			(at 229.235 23.495 0)
+		(uuid "2ee57a62-defb-4c3d-b1a9-d465fcd40e96")
+		(property "Reference" "#PWR036"
+			(at 247.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,8 +6325,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-40xx"
-			(at 247.65 24.13 0)
+		(property "Value" "+3V3"
+			(at 247.65 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +6343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 24.13 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,71 +6351,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uH, Idc>1.0A, Rdc<=200mOhms, shielded"
-			(at 234.95 24.13 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Specifications" "10uH, Idc>1.2A, Rdc<=200mOhms, shielded"
-			(at 242.824 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Taiyo Yuden"
-			(at 244.348 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "NRS4018T100MDGJ"
-			(at 245.872 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "10uH"
-			(at 234.95 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display 2" "1.2A"
-			(at 234.95 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
-			(uuid "17f594de-4adf-4019-b504-110f41a8e57f")
-		)
-		(pin "2"
-			(uuid "d4eb36a2-97a9-4c8c-8f97-065f7a7bc239")
+			(uuid "86392d2b-770c-4eae-b0c0-04669958b889")
 		)
 		(instances
-			(project ""
+			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "L2")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7428,7 +6374,7 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N5088BU_Obsolete")
-		(at 161.29 127 0)
+		(at 157.48 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7437,7 +6383,7 @@
 		(fields_autoplaced yes)
 		(uuid "32d288e6-af39-4252-bfa2-e1374a539272")
 		(property "Reference" "Q4"
-			(at 166.37 125.7299 0)
+			(at 162.56 130.8099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7445,8 +6391,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N5088BU_Obsolete"
-			(at 166.37 128.2699 0)
+		(property "Value" "2N5088 PBFREE"
+			(at 162.56 133.3499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7455,7 +6401,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:TO-92-3"
-			(at 166.37 121.92 0)
+			(at 162.56 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7465,7 +6411,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/2N5088,89,MMBT5088,89.pdf"
-			(at 166.37 119.38 0)
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7475,7 +6421,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 30V 0.1A TO92"
-			(at 161.29 127 0)
+			(at 157.48 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +6430,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "2N5088BU-ND"
-			(at 166.37 116.84 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7494,7 +6440,7 @@
 			)
 		)
 		(property "MPN" "2N5088BU"
-			(at 166.37 114.3 0)
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7504,7 +6450,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 166.37 111.76 0)
+			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7514,7 +6460,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 166.37 109.22 0)
+			(at 162.56 114.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7524,7 +6470,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/2N5088,89,MMBT5088,89.pdf"
-			(at 166.37 106.68 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7534,7 +6480,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/2N5088BU/2N5088BU-ND/32182"
-			(at 166.37 104.14 0)
+			(at 162.56 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7544,7 +6490,7 @@
 			)
 		)
 		(property "Description_1" "TRANS NPN 30V 0.1A TO92"
-			(at 166.37 101.6 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7554,7 +6500,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 166.37 99.06 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7564,12 +6510,21 @@
 			)
 		)
 		(property "Status" "Obsolete NonStock"
-			(at 166.37 96.52 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 157.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7586,71 +6541,6 @@
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3769cd49-03e8-4f07-868a-fc4f68fa566e")
-		(property "Reference" "#PWR035"
-			(at 234.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa12ce9e-1246-4195-a33d-6fa40dc2736f")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7790,6 +6680,15 @@
 				(hide yes)
 			)
 		)
+		(property "Display 2" ""
+			(at 24.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4aaf15a0-6bea-4c08-8216-29b0c4edd3f2")
 		)
@@ -7812,74 +6711,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
-		(at 52.07 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f56309b-a174-4bc0-949a-90051c1619f4")
-		(property "Reference" "#PWR09"
-			(at 52.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+9V"
-			(at 52.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a585d5c-aeed-4a2d-92df-26cf0eea0299")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 35.56 134.62 0)
+		(at 31.75 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7887,7 +6720,7 @@
 		(dnp no)
 		(uuid "42424ece-3b40-4c6f-927a-14d13e8cb680")
 		(property "Reference" "#PWR044"
-			(at 35.56 140.97 0)
+			(at 31.75 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +6729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 138.43 0)
+			(at 31.75 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +6737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 134.62 0)
+			(at 31.75 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +6746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 134.62 0)
+			(at 31.75 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +6755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 134.62 0)
+			(at 31.75 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +6777,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MFR-25FRF52-4K7")
-		(at 107.95 124.46 0)
+		(at 104.14 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7952,7 +6785,7 @@
 		(dnp no)
 		(uuid "42eca665-d182-490e-9708-204a7227d78d")
 		(property "Reference" "R5"
-			(at 117.348 120.142 0)
+			(at 113.538 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +6794,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 118.872 121.92 0)
+			(at 115.062 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,8 +6802,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 121.92 123.19 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,7 +6813,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf"
-			(at 121.92 125.73 0)
+			(at 118.11 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +6823,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 107.95 127.508 0)
+			(at 104.14 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,7 +6832,7 @@
 			)
 		)
 		(property "Description_1" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 121.92 128.27 0)
+			(at 118.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,7 +6842,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 121.92 130.81 0)
+			(at 118.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +6852,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 121.92 133.35 0)
+			(at 118.11 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +6862,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FRF52-4K7"
-			(at 121.92 135.89 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +6872,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-MFR-25FRF52-4K7"
-			(at 121.92 138.43 0)
+			(at 118.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +6882,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D"
-			(at 121.92 140.97 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +6892,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MFR-25FRF52-4K7"
-			(at 121.92 143.51 0)
+			(at 118.11 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,12 +6902,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac"
-			(at 121.92 146.05 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8095,7 +6937,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MFR-25FRF52-4K7")
-		(at 224.79 74.93 90)
+		(at 256.54 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8103,7 +6945,7 @@
 		(dnp no)
 		(uuid "43f05654-eaae-42dc-8e82-2b9c179f7bab")
 		(property "Reference" "R6"
-			(at 220.472 65.532 0)
+			(at 252.222 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +6954,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 222.25 64.008 0)
+			(at 254 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,8 +6962,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 223.52 60.96 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 255.27 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +6973,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf"
-			(at 226.06 60.96 0)
+			(at 257.81 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +6983,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 227.838 74.93 0)
+			(at 259.588 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +6992,7 @@
 			)
 		)
 		(property "Description_1" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 228.6 60.96 0)
+			(at 260.35 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +7002,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 231.14 60.96 0)
+			(at 262.89 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +7012,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 233.68 60.96 0)
+			(at 265.43 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,7 +7022,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FRF52-4K7"
-			(at 236.22 60.96 0)
+			(at 267.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +7032,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-MFR-25FRF52-4K7"
-			(at 238.76 60.96 0)
+			(at 270.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +7042,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D"
-			(at 241.3 60.96 0)
+			(at 273.05 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +7052,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MFR-25FRF52-4K7"
-			(at 243.84 60.96 0)
+			(at 275.59 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,12 +7062,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac"
-			(at 246.38 60.96 0)
+			(at 278.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8246,7 +7097,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SR211C104KARTR1")
-		(at 59.69 120.65 0)
+		(at 55.88 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8254,7 +7105,7 @@
 		(dnp no)
 		(uuid "4e1d0ee4-2415-48ac-8ba2-ef9081ced248")
 		(property "Reference" "C29"
-			(at 60.96 115.316 0)
+			(at 57.15 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +7114,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 62.992 117.094 0)
+			(at 59.182 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,8 +7122,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SR211C104KARTR1"
-			(at 51.054 113.03 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 47.244 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +7133,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.avx.com/SR-Series.pdf"
-			(at 41.148 92.456 0)
+			(at 37.338 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +7143,7 @@
 			)
 		)
 		(property "Description" "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C"
-			(at 96.52 97.536 0)
+			(at 92.71 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +7152,7 @@
 			)
 		)
 		(property "Description_1" "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C"
-			(at 41.148 94.996 0)
+			(at 37.338 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,7 +7162,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 52.07 124.46 0)
+			(at 48.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +7172,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 52.07 127 0)
+			(at 48.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8331,7 +7182,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SR211C104KARTR1"
-			(at 52.07 129.54 0)
+			(at 48.26 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +7192,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-SR211C104KARTR1"
-			(at 41.148 100.076 0)
+			(at 37.338 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +7202,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/SR211C104KARTR1?qs=VbDyUod5BIevel8oj7CoQQ%3D%3D"
-			(at 41.148 102.616 0)
+			(at 37.338 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +7212,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SR211C104KARTR1"
-			(at 41.148 105.156 0)
+			(at 37.338 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,12 +7222,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sr211c104kartr1/avx?utm_currency=USD&region=europe"
-			(at 41.148 107.696 0)
+			(at 37.338 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8396,16 +7256,81 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 259.08 48.26 0)
+		(lib_id "power:+9V")
+		(at 242.57 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4f1af7ca-34cf-4dea-8f2b-d9a2a098c27d")
-		(property "Reference" "#PWR039"
-			(at 259.08 54.61 0)
+		(uuid "5200b052-0264-4621-8cca-0a311d1c7c82")
+		(property "Reference" "#PWR046"
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 242.57 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4568583b-ea0b-4865-b880-21a3d3a053fc")
+		)
+		(instances
+			(project "dsp_effect_pedal_bluetooth"
+				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f936c5f-8df5-4cea-ab39-996c30cf3b89")
+		(property "Reference" "#PWR07"
+			(at 247.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +7339,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 52.07 0)
+			(at 247.65 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +7347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 48.26 0)
+			(at 247.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +7356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 48.26 0)
+			(at 247.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +7365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 48.26 0)
+			(at 247.65 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,414 +7374,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "19f3c81d-b262-403d-8763-4c23fd9e6f65")
+			(uuid "a651edc2-c9be-47df-af0b-14b89926a91b")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 269.24 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "535d4b40-182e-4423-8d98-2d4020ef24b6")
-		(property "Reference" "#PWR040"
-			(at 269.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65695725-fbf3-4cb7-9319-98c38613e34d")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS34")
-		(at 254 24.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e235b4a-5286-4243-a0f5-4e9b37436fe0")
-		(property "Reference" "D4"
-			(at 254.3175 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 254.3175 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 254 19.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 254 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 254 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ff070c4-8b8c-47e0-a445-03abda44dc86")
-		)
-		(pin "1"
-			(uuid "7ecd53bd-c8f5-48c9-9692-78a2fe64ff34")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Switch:Encoder_Rotary_11mm_SPST_DShaft")
-		(at 121.92 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5edd87d2-3751-4a6d-98c9-3abf992716ad")
-		(property "Reference" "ENC1"
-			(at 121.666 39.37 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Encoder_Rotary_11mm_SPST_DShaft"
-			(at 121.666 41.91 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "4ms_Encoder:ENC_SPST_12mm"
-			(at 134.62 51.435 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 41.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
-			(at 121.92 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Alpha Taiwan"
-			(at 109.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RE111F-41B3N-20F-20P-N"
-			(at 106.68 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
-			(at 111.76 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" "Bourns"
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" "PEC11L-4020F-S0020"
-			(at 101.6 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "810e0353-d1a7-43a4-bb03-89df8280da77")
-		)
-		(pin "SW2"
-			(uuid "3ea3d5e7-bf28-4472-9358-a81854002632")
-		)
-		(pin "SW1"
-			(uuid "a9933e7f-89e9-45c0-a7bf-06819180e8fa")
-		)
-		(pin "3"
-			(uuid "2243e13d-db27-4a98-ace5-38aaef9534f5")
-		)
-		(pin "2"
-			(uuid "e0db437a-acdf-42c2-967e-1afbfde7c096")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "ENC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "634a1547-48ad-4d0a-8cbb-cd5b934f8a70")
-		(property "Reference" "#PWR011"
-			(at 223.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec63b9ad-206f-4ad3-bf6a-0a90a9e2b81c")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:MT3608")
-		(at 234.95 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66b365ed-48d2-4dfd-b2ff-aaa389489ab3")
-		(property "Reference" "U11"
-			(at 234.95 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MT3608"
-			(at 234.95 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 236.22 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
-			(at 228.6 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a1d9112-b528-4f43-bd24-1bf6d87cc9a1")
-		)
-		(pin "2"
-			(uuid "961b48c9-456d-4a9b-99a5-2f7e2ed70a6c")
-		)
-		(pin "6"
-			(uuid "afc98598-7341-416b-81e5-2b30de232a47")
-		)
-		(pin "3"
-			(uuid "5d4a6fc8-4fbc-4c28-b7aa-eb2195499b3a")
-		)
-		(pin "5"
-			(uuid "7e5dc71d-353c-4e8d-ae07-92c0b7bcb185")
-		)
-		(pin "4"
-			(uuid "c6fe1517-5730-4292-974a-68f8f03b99cd")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "U11")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8864,7 +7387,7 @@
 	)
 	(symbol
 		(lib_id "dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps:MCP6002-I_P")
-		(at 143.51 127 0)
+		(at 139.7 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8872,7 +7395,7 @@
 		(dnp no)
 		(uuid "677f3294-1be8-4866-aa5f-97f4eb80aeb0")
 		(property "Reference" "U1"
-			(at 146.812 130.556 0)
+			(at 143.002 135.636 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8880,7 +7403,7 @@
 			)
 		)
 		(property "Value" "MCP6002-I_P"
-			(at 152.654 132.842 0)
+			(at 148.844 137.922 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8888,7 +7411,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:DIP-8_W7.62mm"
-			(at 148.59 121.92 0)
+			(at 144.78 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8898,7 +7421,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011705"
-			(at 148.59 119.38 0)
+			(at 144.78 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8908,7 +7431,7 @@
 			)
 		)
 		(property "Description" "IC OPAMP GP 2 CIRCUIT 8DIP"
-			(at 163.068 124.46 0)
+			(at 159.258 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +7440,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "MCP6002-I/P-ND"
-			(at 148.59 116.84 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8927,7 +7450,7 @@
 			)
 		)
 		(property "MPN" "MCP6002-I/P"
-			(at 148.59 114.3 0)
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8937,7 +7460,7 @@
 			)
 		)
 		(property "Category" "Integrated Circuits (ICs)"
-			(at 148.59 111.76 0)
+			(at 144.78 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8947,7 +7470,7 @@
 			)
 		)
 		(property "Family" "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps"
-			(at 148.59 109.22 0)
+			(at 144.78 114.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8957,7 +7480,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011705"
-			(at 148.59 106.68 0)
+			(at 144.78 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8967,7 +7490,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/microchip-technology/MCP6002-I-P/MCP6002-I-P-ND/500875"
-			(at 148.59 104.14 0)
+			(at 144.78 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8977,7 +7500,7 @@
 			)
 		)
 		(property "Description_1" "IC OPAMP GP 2 CIRCUIT 8DIP"
-			(at 148.59 101.6 0)
+			(at 144.78 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8987,7 +7510,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 148.59 99.06 0)
+			(at 144.78 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8997,12 +7520,21 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 148.59 96.52 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 139.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9046,73 +7578,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 215.9 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ade9b89-0d1b-42de-88ce-6b2e8d539747")
-		(property "Reference" "#PWR070"
-			(at 215.9 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 215.9 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 215.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5261fd9-3ade-49ca-9ab0-f72562803466")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 76.2 148.59 0)
+		(at 72.39 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9120,7 +7587,7 @@
 		(dnp no)
 		(uuid "6baa29f6-d4b8-418a-b0fb-40e47ed1a4fc")
 		(property "Reference" "#PWR048"
-			(at 76.2 154.94 0)
+			(at 72.39 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,7 +7596,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 152.4 0)
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,7 +7604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 148.59 0)
+			(at 72.39 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,7 +7613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 148.59 0)
+			(at 72.39 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +7622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 148.59 0)
+			(at 72.39 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +7644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 81.28 0)
+		(at 260.35 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9185,7 +7652,7 @@
 		(dnp no)
 		(uuid "6f0c9881-dabb-4d4c-8660-b78bad1f1e0c")
 		(property "Reference" "#PWR051"
-			(at 228.6 87.63 0)
+			(at 260.35 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +7661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 85.09 0)
+			(at 260.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +7669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 81.28 0)
+			(at 260.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +7678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 81.28 0)
+			(at 260.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +7687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 81.28 0)
+			(at 260.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,479 +7774,9 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:MFR-25FBF52-150R")
-		(at 259.08 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f427bb2-e224-4816-b12b-1c99d55217d5")
-		(property "Reference" "R30"
-			(at 260.858 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "150"
-			(at 260.858 44.1961 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 267.462 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MFR-25FBF52-150R.pdf"
-			(at 270.002 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Metal Film Resistors - Through Hole 150 OHM 1/4W 1%"
-			(at 252.73 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Metal Film Resistors - Through Hole 150 OHM 1/4W 1%"
-			(at 272.542 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 265.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 277.622 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MFR-25FBF52-150R"
-			(at 280.162 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-MFR-25FBF52-150R"
-			(at 282.702 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FBF52-150R?qs=oAGoVhmvjhzXwr6CW7nGjg%3D%3D"
-			(at 285.242 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "MFR-25FBF52-150R"
-			(at 287.782 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25fbf52-150r/yageo?region=nac"
-			(at 290.322 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc7a3490-9302-49fc-8dd3-a64bdff701c5")
-		)
-		(pin "2"
-			(uuid "0f73fb6f-7cab-4ff7-8ee6-7c6b78f20196")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:FG20X7R1C226MRT06")
-		(at 223.52 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72941a44-5cec-4fa9-b944-b0cc2f05cbe6")
-		(property "Reference" "C39"
-			(at 215.9 43.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 215.9 45.212 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "FG20"
-			(at 230.886 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf"
-			(at 233.426 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm"
-			(at 232.156 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm"
-			(at 235.966 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.5"
-			(at 238.506 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 241.046 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FG20X7R1C226MRT06"
-			(at 243.586 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "810-FG20X7R1C226MRT6"
-			(at 246.126 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/FG20X7R1C226MRT06?qs=qf2ddTMq67WyJ0TFf7dwFQ%3D%3D"
-			(at 248.666 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 242.57 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 245.11 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5122544-e6ae-458f-962b-13c3c4706557")
-		)
-		(pin "2"
-			(uuid "ab917e39-9b85-4dae-9778-e873a4f80739")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:0022232041")
-		(at 60.96 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "739146e1-2198-4612-8dde-d23b5189c145")
-		(property "Reference" "J4"
-			(at 64.77 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0022232041"
-			(at 64.77 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm"
-			(at 55.88 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf"
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
-			(at 60.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "WM4202-ND"
-			(at 50.8 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0022232041"
-			(at 48.26 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Connectors, Interconnects"
-			(at 45.72 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Rectangular Connectors - Headers, Male Pins"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf"
-			(at 40.64 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/molex/0022232041/WM4202-ND/26671"
-			(at 38.1 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CONN HEADER VERT 4POS 2.54MM"
-			(at 35.56 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 33.02 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 30.48 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14fc84db-307c-4ef9-9d7e-9f57963b4c44")
-		)
-		(pin "2"
-			(uuid "8753f89c-a2ff-467c-9b65-279cb62e94a6")
-		)
-		(pin "4"
-			(uuid "7857828d-922b-4547-b9fb-2f6132baf287")
-		)
-		(pin "3"
-			(uuid "9ff598fb-5ea2-417c-b665-77340b418cdb")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "REA470M1CBK-0511P_1")
 		(lib_id "SamacSys_Parts:REA470M1CBK-0511P")
-		(at 232.41 76.2 270)
+		(at 264.16 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9787,7 +7784,7 @@
 		(dnp no)
 		(uuid "745ebb3c-3a4b-4178-bcb9-ba50ca0dfc2a")
 		(property "Reference" "C33"
-			(at 235.458 75.438 90)
+			(at 267.208 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9796,7 +7793,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 235.204 77.216 90)
+			(at 266.954 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9804,8 +7801,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD200W50D525H1250"
-			(at 209.55 62.484 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 241.3 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +7812,7 @@
 			)
 		)
 		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/1/REA470M1CBK-0511P.pdf"
-			(at 207.01 62.484 0)
+			(at 238.76 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +7822,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded 16V 47uF 20% 5x11 mm"
-			(at 227.076 99.568 0)
+			(at 258.826 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +7831,7 @@
 			)
 		)
 		(property "Description_1" "Aluminum Electrolytic Capacitors - Radial Leaded 16V 47uF 20% 5x11 mm"
-			(at 224.79 62.484 0)
+			(at 256.54 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +7841,7 @@
 			)
 		)
 		(property "Height" "12.5"
-			(at 222.25 62.484 0)
+			(at 254 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +7851,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lelon"
-			(at 219.71 62.484 0)
+			(at 251.46 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +7861,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "REA470M1CBK-0511P"
-			(at 217.17 62.484 0)
+			(at 248.92 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9874,7 +7871,7 @@
 			)
 		)
 		(property "Mouser Part Number" "140-REA470M1CBK0511P"
-			(at 214.63 62.484 0)
+			(at 246.38 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +7881,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lelon/REA470M1CBK-0511P/?qs=LVGG2qFPDbGuSPcHtpe6Lw%3D%3D"
-			(at 212.09 62.484 0)
+			(at 243.84 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +7891,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 213.36 85.09 0)
+			(at 245.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,12 +7901,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 210.82 85.09 0)
+			(at 242.57 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9930,7 +7936,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 133.35 0)
+		(at 49.53 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9938,7 +7944,7 @@
 		(dnp no)
 		(uuid "7486ed5c-830d-4622-a664-25d32c8f6714")
 		(property "Reference" "#PWR06"
-			(at 53.34 139.7 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,7 +7953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 137.16 0)
+			(at 49.53 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9955,7 +7961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 133.35 0)
+			(at 49.53 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +7970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 133.35 0)
+			(at 49.53 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +7979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 133.35 0)
+			(at 49.53 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,72 +8001,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b867cde-14f2-415c-aeeb-416e5967d062")
-		(property "Reference" "#PWR07"
-			(at 20.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "053a3785-2ac5-49a6-ac28-ffd10605e98f")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 132.08 0)
+		(at 139.7 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10068,7 +8009,7 @@
 		(dnp no)
 		(uuid "7e5363bb-64ed-40cd-90b0-d45197462113")
 		(property "Reference" "#PWR01"
-			(at 143.51 138.43 0)
+			(at 139.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +8018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 135.89 0)
+			(at 139.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,7 +8026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 132.08 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +8035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 132.08 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,7 +8044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 132.08 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10126,7 +8067,7 @@
 	(symbol
 		(lib_name "REA470M1CBK-0511P_1")
 		(lib_id "SamacSys_Parts:REA470M1CBK-0511P")
-		(at 125.73 129.54 270)
+		(at 121.92 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10134,7 +8075,7 @@
 		(dnp no)
 		(uuid "83dc90c3-ee45-47bc-b03b-6f631f1cc6d5")
 		(property "Reference" "C1"
-			(at 128.778 128.778 90)
+			(at 124.968 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +8084,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 128.524 130.556 90)
+			(at 124.714 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,8 +8092,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD200W50D525H1250"
-			(at 102.87 115.824 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 99.06 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +8103,7 @@
 			)
 		)
 		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/1/REA470M1CBK-0511P.pdf"
-			(at 100.33 115.824 0)
+			(at 96.52 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,7 +8113,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded 16V 47uF 20% 5x11 mm"
-			(at 120.396 152.908 0)
+			(at 116.586 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +8122,7 @@
 			)
 		)
 		(property "Description_1" "Aluminum Electrolytic Capacitors - Radial Leaded 16V 47uF 20% 5x11 mm"
-			(at 118.11 115.824 0)
+			(at 114.3 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +8132,7 @@
 			)
 		)
 		(property "Height" "12.5"
-			(at 115.57 115.824 0)
+			(at 111.76 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,7 +8142,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lelon"
-			(at 113.03 115.824 0)
+			(at 109.22 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +8152,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "REA470M1CBK-0511P"
-			(at 110.49 115.824 0)
+			(at 106.68 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +8162,7 @@
 			)
 		)
 		(property "Mouser Part Number" "140-REA470M1CBK0511P"
-			(at 107.95 115.824 0)
+			(at 104.14 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +8172,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lelon/REA470M1CBK-0511P/?qs=LVGG2qFPDbGuSPcHtpe6Lw%3D%3D"
-			(at 105.41 115.824 0)
+			(at 101.6 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +8182,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 106.68 138.43 0)
+			(at 102.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,12 +8192,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 104.14 138.43 0)
+			(at 100.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 121.92 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10276,184 +8226,16 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:0022232041")
-		(at 26.67 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "894c22f4-754e-4057-9096-721f9ac514c5")
-		(property "Reference" "J1"
-			(at 30.48 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0022232041"
-			(at 30.48 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm"
-			(at 21.59 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf"
-			(at 19.05 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 4POS 2.54MM"
-			(at 26.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "WM4202-ND"
-			(at 16.51 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0022232041"
-			(at 13.97 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Connectors, Interconnects"
-			(at 11.43 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Rectangular Connectors - Headers, Male Pins"
-			(at 8.89 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf"
-			(at 6.35 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/molex/0022232041/WM4202-ND/26671"
-			(at 3.81 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CONN HEADER VERT 4POS 2.54MM"
-			(at 1.27 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at -1.27 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at -3.81 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba123a7e-210f-48ea-8eee-4271bf7717d0")
-		)
-		(pin "2"
-			(uuid "1c9c3975-3987-4e23-bc1b-62b424421099")
-		)
-		(pin "4"
-			(uuid "4040e059-a072-41a1-b4c2-dcc44ee3af82")
-		)
-		(pin "3"
-			(uuid "bc3bee7e-f6e0-49a6-8415-e3075fbc0805")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 63.5 120.65 0)
+		(at 123.19 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8a86e985-c984-40f2-b2bb-16c3fe115fc2")
-		(property "Reference" "#PWR045"
-			(at 63.5 127 0)
+		(uuid "89a7f3d1-5897-4755-9297-80778069d7ae")
+		(property "Reference" "#PWR037"
+			(at 123.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10462,7 +8244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 124.46 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,7 +8252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 120.65 0)
+			(at 123.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10479,7 +8261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 120.65 0)
+			(at 123.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10488,7 +8270,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 120.65 0)
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5248eb1a-5e64-4a09-914a-aafda7312667")
+		)
+		(instances
+			(project "dsp_effect_pedal_bluetooth"
+				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a86e985-c984-40f2-b2bb-16c3fe115fc2")
+		(property "Reference" "#PWR045"
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10509,8 +8356,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c8f689a-15bb-433b-9f26-775ecb72b3ae")
+		(property "Reference" "#PWR027"
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 47.498 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1937567-4e5c-4e3d-8126-335c02ffbfb4")
+		)
+		(instances
+			(project "dsp_effect_pedal_bluetooth"
+				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:MFR-25FRF52-4K7")
-		(at 224.79 85.09 90)
+		(at 256.54 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10518,7 +8431,7 @@
 		(dnp no)
 		(uuid "937b80b7-3379-4f33-b25b-71b5ac0cb579")
 		(property "Reference" "R28"
-			(at 220.472 75.692 0)
+			(at 252.222 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +8440,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 222.25 74.168 0)
+			(at 254 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,8 +8448,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 223.52 71.12 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 255.27 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +8459,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf"
-			(at 226.06 71.12 0)
+			(at 257.81 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +8469,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 227.838 85.09 0)
+			(at 259.588 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +8478,7 @@
 			)
 		)
 		(property "Description_1" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 228.6 71.12 0)
+			(at 260.35 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +8488,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 231.14 71.12 0)
+			(at 262.89 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +8498,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 233.68 71.12 0)
+			(at 265.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +8508,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FRF52-4K7"
-			(at 236.22 71.12 0)
+			(at 267.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +8518,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-MFR-25FRF52-4K7"
-			(at 238.76 71.12 0)
+			(at 270.51 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,7 +8528,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D"
-			(at 241.3 71.12 0)
+			(at 273.05 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +8538,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MFR-25FRF52-4K7"
-			(at 243.84 71.12 0)
+			(at 275.59 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,12 +8548,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac"
-			(at 246.38 71.12 0)
+			(at 278.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10660,51 +8582,213 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Switch:Encoder_Rotary_11mm_SPST_DShaft")
-		(at 142.24 60.96 0)
-		(unit 2)
+		(lib_name "SR211C104KARTR1_1")
+		(lib_id "SamacSys_Parts:SR211C104KARTR1")
+		(at 233.68 33.02 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97c7668a-c53c-4f2b-8b52-a719f91dccd9")
-		(property "Reference" "ENC1"
-			(at 142.24 52.07 0)
+		(uuid "97159ae0-2404-4142-bee4-2cb7fc922450")
+		(property "Reference" "C39"
+			(at 236.474 32.004 90)
 			(effects
 				(font
-					(size 1.143 1.143)
+					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Encoder_Rotary_11mm_SPST_DShaft"
-			(at 142.24 54.61 0)
+		(property "Value" "100nF"
+			(at 236.474 33.782 90)
 			(effects
 				(font
-					(size 1.143 1.143)
+					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "4ms_Encoder:ENC_SPST_12mm"
-			(at 142.875 48.26 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 226.06 41.656 0)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/SR-Series.pdf"
+			(at 205.486 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C"
+			(at 210.566 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 67.31 0)
+		(property "Description_1" "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C"
+			(at 208.026 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.08"
+			(at 237.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 240.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SR211C104KARTR1"
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-SR211C104KARTR1"
+			(at 213.106 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/SR211C104KARTR1?qs=VbDyUod5BIevel8oj7CoQQ%3D%3D"
+			(at 215.646 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SR211C104KARTR1"
+			(at 218.186 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sr211c104kartr1/avx?utm_currency=USD&region=europe"
+			(at 220.726 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0202084a-3d24-42e3-a0fe-1aabe51e85c7")
+		)
+		(pin "1"
+			(uuid "d95bce4b-21ab-4fba-8665-3b6e7686a502")
+		)
+		(instances
+			(project "dsp_effect_pedal_bluetooth"
+				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:B2B-PH-K-S_LF__SN_")
+		(at 222.25 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97f43b4b-1999-4b73-aaf3-5f169b0a8ebb")
+		(property "Reference" "J1"
+			(at 220.98 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST-PH"
+			(at 223.266 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:PinHeader_1x2_P2mm_Drill1mm"
+			(at 227.33 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
-			(at 142.24 60.96 0)
+		(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+			(at 229.87 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 2POS 2MM"
+			(at 222.25 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,78 +8796,123 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Alpha Taiwan"
-			(at 142.24 73.66 0)
+		(property "Digi-Key_PN" "455-1704-ND"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B2B-PH-K-S(LF)(SN)"
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Connectors, Interconnects"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Rectangular Connectors - Headers, Male Pins"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+			(at 242.57 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "CONN HEADER VERT 2POS 2MM"
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 252.73 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 222.25 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Part Number" "RE111F-41B3N-20F-20P-N"
-			(at 142.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 2" "Bourns"
-			(at 142.24 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number 2" "PEC11L-4020F-S0020"
-			(at 143.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a9fe2302-a892-4d4b-a688-1201f08f4b78")
-		)
-		(pin "SW2"
-			(uuid "add25dcb-9cdc-4c00-b39a-bc46abd3d2f1")
 		)
 		(pin "2"
-			(uuid "ba800039-3455-470c-870c-ea89f7e78ec1")
+			(uuid "19c44c53-1215-41f7-b948-ea1bd75e6952")
 		)
 		(pin "1"
-			(uuid "72fb5857-97eb-4de0-9d91-59f5ab0726f9")
-		)
-		(pin "SW1"
-			(uuid "070db791-c7cd-4621-85eb-e7f69661107d")
+			(uuid "7905edad-be74-49f4-8294-31e25b305cc5")
 		)
 		(instances
 			(project ""
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "ENC1")
-					(unit 2)
+					(reference "J1")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 224.79 62.23 0)
+		(at 256.54 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10791,7 +8920,7 @@
 		(dnp no)
 		(uuid "983a558d-588d-43e8-af74-195a7f340b0d")
 		(property "Reference" "#PWR049"
-			(at 224.79 66.04 0)
+			(at 256.54 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +8929,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 224.79 57.912 0)
+			(at 256.54 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +8937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 62.23 0)
+			(at 256.54 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +8946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 62.23 0)
+			(at 256.54 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,7 +8955,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 224.79 62.23 0)
+			(at 256.54 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10848,7 +8977,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 240.03 69.85 0)
+		(at 271.78 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10856,7 +8985,7 @@
 		(dnp no)
 		(uuid "98da0629-8716-40e5-8d8d-74cd3515ce1b")
 		(property "Reference" "#PWR052"
-			(at 240.03 73.66 0)
+			(at 271.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10865,7 +8994,7 @@
 			)
 		)
 		(property "Value" "4.5V"
-			(at 240.03 66.04 0)
+			(at 271.78 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +9002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 69.85 0)
+			(at 271.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +9011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 69.85 0)
+			(at 271.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +9020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 240.03 69.85 0)
+			(at 271.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,16 +9042,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SF17020F-0302-21R-L-015")
-		(at 167.64 73.66 0)
+		(at 128.27 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a80d5a0-cf44-4d37-8290-b52b201c29d2")
 		(property "Reference" "S1"
-			(at 177.8 66.04 0)
+			(at 142.24 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,7 +9058,7 @@
 			)
 		)
 		(property "Value" "SF17020F-0302-21R-L-015"
-			(at 177.8 68.58 0)
+			(at 142.24 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10938,7 +9066,7 @@
 			)
 		)
 		(property "Footprint" "SF17020F030221RL015"
-			(at 184.15 71.12 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10948,7 +9076,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SF17020F-0302-21R-L-015.pdf"
-			(at 184.15 73.66 0)
+			(at 144.78 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +9086,7 @@
 			)
 		)
 		(property "Description" "Pushbutton Switches 3PDT STOMP/FOOT SW LATCHING 1A9VDC 9PIN"
-			(at 167.64 73.66 0)
+			(at 128.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,7 +9095,7 @@
 			)
 		)
 		(property "Description_1" "Pushbutton Switches 3PDT STOMP/FOOT SW LATCHING 1A9VDC 9PIN"
-			(at 184.15 76.2 0)
+			(at 144.78 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +9105,7 @@
 			)
 		)
 		(property "Height" "41.2"
-			(at 184.15 78.74 0)
+			(at 144.78 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,7 +9115,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha (Taiwan)"
-			(at 184.15 81.28 0)
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +9125,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SF17020F-0302-21R-L-015"
-			(at 184.15 83.82 0)
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11007,7 +9135,7 @@
 			)
 		)
 		(property "Mouser Part Number" "107-SF17020F-32-21RL"
-			(at 184.15 86.36 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +9145,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SF17020F-0302-21R-L-015?qs=8%252Br4Hz5Xir%252BN8wocvXmKAA%3D%3D"
-			(at 184.15 88.9 0)
+			(at 144.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11027,7 +9155,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 184.15 91.44 0)
+			(at 144.78 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11037,12 +9165,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 184.15 93.98 0)
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11083,8 +9220,169 @@
 		)
 	)
 	(symbol
+		(lib_name "SR211C104KARTR1_1")
+		(lib_id "SamacSys_Parts:SR211C104KARTR1")
+		(at 59.69 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8c0bc47-3bf8-4f5a-a885-9cc85b181c4f")
+		(property "Reference" "C37"
+			(at 62.23 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 62.484 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 52.07 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.avx.com/SR-Series.pdf"
+			(at 31.496 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C"
+			(at 36.576 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "AVX 100nF Multilayer Ceramic Capacitor MLCC 100V dc +/-10% X7R Dielectric SR21 Radial, Max. Temp. +125C"
+			(at 34.036 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.08"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SR211C104KARTR1"
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-SR211C104KARTR1"
+			(at 39.116 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/SR211C104KARTR1?qs=VbDyUod5BIevel8oj7CoQQ%3D%3D"
+			(at 41.656 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SR211C104KARTR1"
+			(at 44.196 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sr211c104kartr1/avx?utm_currency=USD&region=europe"
+			(at 46.736 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "456a0b9e-460c-4e67-951a-4ad509814564")
+		)
+		(pin "1"
+			(uuid "4073dbc6-f140-460a-9d8d-791aaa2e5b24")
+		)
+		(instances
+			(project "dsp_effect_pedal_bluetooth"
+				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 123.19 134.62 0)
+		(at 119.38 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11092,7 +9390,7 @@
 		(dnp no)
 		(uuid "a8e88d1e-9e26-4fff-beb8-ae818c0037a8")
 		(property "Reference" "#PWR041"
-			(at 123.19 140.97 0)
+			(at 119.38 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,7 +9399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 138.43 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11109,7 +9407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 134.62 0)
+			(at 119.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,7 +9416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 134.62 0)
+			(at 119.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +9425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 134.62 0)
+			(at 119.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11148,16 +9446,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 143.51 121.92 0)
+		(lib_id "power:GND")
+		(at 236.22 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "baedd2ef-d556-4873-98f3-f3302131219d")
+		(uuid "b0061b46-9da0-4ecf-8f04-e22ef28b8af2")
 		(property "Reference" "#PWR042"
-			(at 143.51 125.73 0)
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11165,8 +9463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 143.51 118.11 0)
+		(property "Value" "GND"
+			(at 236.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,7 +9472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 121.92 0)
+			(at 236.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +9481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 121.92 0)
+			(at 236.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11191,8 +9489,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 143.51 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +9499,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd0b79ce-fd7a-40bf-a69d-d03e1da033b8")
+			(uuid "52dce51d-d10d-42c6-abc5-584434885ab9")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
@@ -11214,72 +9512,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be516c77-a134-4445-9ccc-020044d3d47c")
-		(property "Reference" "#PWR05"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d7ace36-d729-4b35-97f2-c0d7ef60142f")
-		)
-		(instances
-			(project "dsp_effect_pedal_bluetooth"
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 148.59 0)
+		(at 160.02 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11287,7 +9520,7 @@
 		(dnp no)
 		(uuid "c2d2f35a-e3c2-45b7-bfa4-aa45ff00bbf2")
 		(property "Reference" "#PWR043"
-			(at 163.83 154.94 0)
+			(at 160.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11296,7 +9529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 152.4 0)
+			(at 160.02 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11304,7 +9537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 148.59 0)
+			(at 160.02 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11313,7 +9546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 148.59 0)
+			(at 160.02 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +9555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 148.59 0)
+			(at 160.02 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11343,16 +9576,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
-		(at 274.32 24.13 0)
+		(lib_id "power:+3V3")
+		(at 123.19 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c636465e-2601-4505-b31d-344cf10f236c")
-		(property "Reference" "#PWR075"
-			(at 274.32 27.94 0)
+		(fields_autoplaced yes)
+		(uuid "d0122fa7-7f4c-4d03-ac67-d9f1e6527306")
+		(property "Reference" "#PWR047"
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11360,8 +9594,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+9V"
-			(at 274.32 19.812 0)
+		(property "Value" "+3V3"
+			(at 123.19 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,7 +9603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 24.13 0)
+			(at 123.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11378,7 +9612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 24.13 0)
+			(at 123.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,8 +9620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 274.32 24.13 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 123.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11396,12 +9630,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9b1dd8e-4f24-4b3b-9f76-ebb4e25cc0cc")
+			(uuid "fae7785e-3add-4492-becc-5c2252a2d0f8")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR075")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11409,7 +9643,7 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:2N5088BU_Obsolete")
-		(at 73.66 127 0)
+		(at 69.85 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11418,7 +9652,7 @@
 		(fields_autoplaced yes)
 		(uuid "da8fdf91-c339-4ffb-93c7-e731b385c549")
 		(property "Reference" "Q3"
-			(at 78.74 125.7299 0)
+			(at 74.93 130.8099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11426,8 +9660,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N5088BU_Obsolete"
-			(at 78.74 128.2699 0)
+		(property "Value" "2N5088 PBFREE"
+			(at 74.93 133.3499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11436,7 +9670,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:TO-92-3"
-			(at 78.74 121.92 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11446,7 +9680,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/2N5088,89,MMBT5088,89.pdf"
-			(at 78.74 119.38 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11456,7 +9690,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 30V 0.1A TO92"
-			(at 73.66 127 0)
+			(at 69.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,7 +9699,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "2N5088BU-ND"
-			(at 78.74 116.84 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11475,7 +9709,7 @@
 			)
 		)
 		(property "MPN" "2N5088BU"
-			(at 78.74 114.3 0)
+			(at 74.93 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11485,7 +9719,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 78.74 111.76 0)
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11495,7 +9729,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 78.74 109.22 0)
+			(at 74.93 114.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11505,7 +9739,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/2N5088,89,MMBT5088,89.pdf"
-			(at 78.74 106.68 0)
+			(at 74.93 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11515,7 +9749,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/2N5088BU/2N5088BU-ND/32182"
-			(at 78.74 104.14 0)
+			(at 74.93 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11525,7 +9759,7 @@
 			)
 		)
 		(property "Description_1" "TRANS NPN 30V 0.1A TO92"
-			(at 78.74 101.6 0)
+			(at 74.93 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11535,7 +9769,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 78.74 99.06 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11545,12 +9779,21 @@
 			)
 		)
 		(property "Status" "Obsolete NonStock"
-			(at 78.74 96.52 0)
+			(at 74.93 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 69.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11639,7 +9882,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MFR-25FRF52-4K7")
-		(at 120.65 138.43 90)
+		(at 116.84 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11647,7 +9890,7 @@
 		(dnp no)
 		(uuid "e06bbd75-95b7-424f-bfb2-47d97122bd4e")
 		(property "Reference" "R20"
-			(at 116.332 127.762 0)
+			(at 112.522 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +9899,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 118.11 127.508 0)
+			(at 114.3 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,8 +9907,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 119.38 124.46 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 115.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +9918,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf"
-			(at 121.92 124.46 0)
+			(at 118.11 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11685,7 +9928,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 123.698 138.43 0)
+			(at 119.888 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11694,7 +9937,7 @@
 			)
 		)
 		(property "Description_1" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 124.46 124.46 0)
+			(at 120.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,7 +9947,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 127 124.46 0)
+			(at 123.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,7 +9957,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 129.54 124.46 0)
+			(at 125.73 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +9967,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FRF52-4K7"
-			(at 132.08 124.46 0)
+			(at 128.27 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +9977,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-MFR-25FRF52-4K7"
-			(at 134.62 124.46 0)
+			(at 130.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11744,7 +9987,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D"
-			(at 137.16 124.46 0)
+			(at 133.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,7 +9997,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MFR-25FRF52-4K7"
-			(at 139.7 124.46 0)
+			(at 135.89 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,12 +10007,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac"
-			(at 142.24 124.46 0)
+			(at 138.43 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11836,6 +10088,15 @@
 		)
 		(property "Description" "Microcontroller module with ESP32 MCU"
 			(at 82.804 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 83.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11938,7 +10199,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:MFR-25FRF52-4K7")
-		(at 33.02 138.43 90)
+		(at 29.21 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11946,7 +10207,7 @@
 		(dnp no)
 		(uuid "e3789a71-ff86-4912-b248-85208aa54ca8")
 		(property "Reference" "R3"
-			(at 28.702 129.032 0)
+			(at 24.892 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +10216,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 30.48 127.508 0)
+			(at 26.67 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11963,8 +10224,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESAD1590W60L630D240"
-			(at 31.75 124.46 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,7 +10235,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20MFR_datasheet_2024v4.pdf"
-			(at 34.29 124.46 0)
+			(at 30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11984,7 +10245,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 36.068 138.43 0)
+			(at 32.258 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11993,7 +10254,7 @@
 			)
 		)
 		(property "Description_1" "4.7 kOhms +/-1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film"
-			(at 36.83 124.46 0)
+			(at 33.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12003,7 +10264,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 39.37 124.46 0)
+			(at 35.56 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,7 +10274,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 41.91 124.46 0)
+			(at 38.1 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12023,7 +10284,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FRF52-4K7"
-			(at 44.45 124.46 0)
+			(at 40.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +10294,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-MFR-25FRF52-4K7"
-			(at 46.99 124.46 0)
+			(at 43.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12043,7 +10304,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/MFR-25FRF52-4K7?qs=oAGoVhmvjhyQeQN9ury1YQ%3D%3D"
-			(at 49.53 124.46 0)
+			(at 45.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12053,7 +10314,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MFR-25FRF52-4K7"
-			(at 52.07 124.46 0)
+			(at 48.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12063,12 +10324,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mfr-25frf52-4k7/yageo?region=nac"
-			(at 54.61 124.46 0)
+			(at 50.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 29.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12088,183 +10358,34 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:YR1B2K0CC")
-		(at 259.08 31.75 270)
+		(lib_id "power:+5V")
+		(at 109.22 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e48b8add-889d-4b31-96cc-e9e1321f4444")
-		(property "Reference" "R29"
-			(at 262.636 30.734 90)
+		(uuid "f45d173b-7938-4201-8d60-beba6c16e68b")
+		(property "Reference" "#PWR05"
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "2k"
-			(at 262.128 32.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RESAD1550W60L630D230"
-			(at 251.968 21.082 0)
+		(property "Value" "+5V"
+			(at 107.188 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1309350_PASSIVE_COMPONENT&DocType=Catalog%20Section&DocLang=English&PartCntxt=7-1676913-9&DocFormat=pdf"
-			(at 249.936 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Resistance Class 1k  1M | Passive Component Tolerance .1 PCT | Power Rating .25 WATT | Resistance Value 2K OHM | Operating Voltage 250 V | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Resistor Type Precision Resistor | Element Type Thin Film | Termination Features: Number of Terminations 2 | Termination"
-			(at 266.446 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Body Features: Lead Type Axial-Leaded | Configuration Features: Number of Resistors 1 | Dimensions: Passive Component Dimensions 6.3 x 2.3 MM | Electrical Characteristics: Resistance Class 1k  1M | Passive Component Tolerance .1 PCT | Power Rating .25 WATT | Resistance Value 2K OHM | Operating Voltage 250 V | Packaging Features: Packaging Method Ammo Packed | Product Type Features: Resistor Type Precision Resistor | Element Type Thin Film | Termination Features: Number of Terminations 2 | Termination"
-			(at 247.396 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 252.222 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 245.11 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "YR1B2K0CC"
-			(at 242.57 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "279-YR1B2K0CC"
-			(at 240.03 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/YR1B2K0CC?qs=VHcS2MTj4gZrRDOEg27XKQ%3D%3D"
-			(at 237.49 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "YR1B2K0CC"
-			(at 234.95 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/yr1b2k0cc/te-connectivity"
-			(at 232.41 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8521f92-53e5-4877-ace9-528cc523808a")
-		)
-		(pin "1"
-			(uuid "299c55f7-4c52-4707-bd60-f421f36233ab")
-		)
-		(instances
-			(project ""
-				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 20.32 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef57a441-a0f1-4765-a5ad-5cdf06274efb")
-		(property "Reference" "#PWR04"
-			(at 20.32 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 20.32 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 87.63 0)
+			(at 109.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,7 +10394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 87.63 0)
+			(at 109.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12281,8 +10402,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 20.32 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12291,12 +10412,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "551c4fa4-4fcf-4055-84f5-01d5a767cd67")
+			(uuid "a2fdb4cc-c7e4-47a9-bb67-6529d6a510b9")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12305,7 +10426,7 @@
 	(symbol
 		(lib_name "REA470M1CBK-0511P_1")
 		(lib_id "SamacSys_Parts:REA470M1CBK-0511P")
-		(at 38.1 129.54 270)
+		(at 34.29 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12313,7 +10434,7 @@
 		(dnp no)
 		(uuid "f4a798de-11e8-4705-9bb5-2c365ebbb571")
 		(property "Reference" "C35"
-			(at 41.148 128.778 90)
+			(at 37.338 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +10443,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 40.894 130.556 90)
+			(at 37.084 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12330,8 +10451,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD200W50D525H1250"
-			(at 15.24 115.824 0)
+		(property "Footprint" "digikey-footprints:1206"
+			(at 11.43 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12341,7 +10462,7 @@
 			)
 		)
 		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/1/REA470M1CBK-0511P.pdf"
-			(at 12.7 115.824 0)
+			(at 8.89 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,7 +10472,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded 16V 47uF 20% 5x11 mm"
-			(at 32.766 152.908 0)
+			(at 28.956 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12360,7 +10481,7 @@
 			)
 		)
 		(property "Description_1" "Aluminum Electrolytic Capacitors - Radial Leaded 16V 47uF 20% 5x11 mm"
-			(at 30.48 115.824 0)
+			(at 26.67 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +10491,7 @@
 			)
 		)
 		(property "Height" "12.5"
-			(at 27.94 115.824 0)
+			(at 24.13 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12380,7 +10501,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lelon"
-			(at 25.4 115.824 0)
+			(at 21.59 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12390,7 +10511,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "REA470M1CBK-0511P"
-			(at 22.86 115.824 0)
+			(at 19.05 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12400,7 +10521,7 @@
 			)
 		)
 		(property "Mouser Part Number" "140-REA470M1CBK0511P"
-			(at 20.32 115.824 0)
+			(at 16.51 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,7 +10531,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lelon/REA470M1CBK-0511P/?qs=LVGG2qFPDbGuSPcHtpe6Lw%3D%3D"
-			(at 17.78 115.824 0)
+			(at 13.97 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12420,7 +10541,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 19.05 138.43 0)
+			(at 15.24 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12430,12 +10551,21 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 16.51 138.43 0)
+			(at 12.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display 2" ""
+			(at 34.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12456,15 +10586,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 53.34 119.38 0)
+		(at 139.7 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fd3b8c85-dd25-4bfb-9eb4-e7a14b59d236")
-		(property "Reference" "#PWR050"
-			(at 53.34 123.19 0)
+		(uuid "fa4a73ba-a442-492b-a3fc-b0cf2c4c40bf")
+		(property "Reference" "#PWR035"
+			(at 139.7 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,15 +10603,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 53.34 115.57 0)
+			(at 137.668 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 119.38 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12490,7 +10621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 119.38 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,7 +10630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 53.34 119.38 0)
+			(at 139.7 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,21 +10639,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0c80aca-f469-49cf-ae00-b0f8e171d16f")
+			(uuid "88fedd5c-79f8-44ca-b0c9-b94bd18a7b91")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
 				(path "/771c2b9e-122f-4f65-bca1-3450fca5e8ad"
-					(reference "#PWR050")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 31.75 168.91)
-		(size 17.78 10.16)
-		(fields_autoplaced yes)
+		(at 85.09 106.68)
+		(size 44.45 12.7)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -12532,7 +10662,7 @@
 		)
 		(uuid "154abc53-5f6b-42ab-83f1-df9e28bd1935")
 		(property "Sheetname" "analog_signal_processing"
-			(at 31.75 168.1984 0)
+			(at 84.836 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12541,13 +10671,73 @@
 			)
 		)
 		(property "Sheetfile" "analog_signal_processing.kicad_sch"
-			(at 31.75 179.6546 0)
+			(at 84.836 102.8196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "DELAY_CURRENT_1" input
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac112631-e4a7-473f-a79c-dfb11f69e7bf")
+		)
+		(pin "DELAY_CURRENT_0" input
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c16bdee1-5eb5-45dc-bf18-2895dd9eebde")
+		)
+		(pin "U4D" input
+			(at 85.09 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "290956fd-8151-4643-bb5e-01f79812529d")
+		)
+		(pin "U4B" input
+			(at 85.09 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f1ad231-0933-455c-89ed-4d9f2f8830a0")
+		)
+		(pin "U4A" input
+			(at 85.09 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "639f302e-5f75-45d4-8281-a441a5152fa2")
+		)
+		(pin "U4C" input
+			(at 85.09 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fe1dbbc-f2ac-4668-bc1a-e045a58d99a6")
 		)
 		(instances
 			(project "dsp_effect_pedal_bluetooth"
