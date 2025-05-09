@@ -1,3 +1,3 @@
-# dsp_effect_pedal
+# effect_pedal
 
-Guitar DSP effect pedal with bluetooth connectivity!
+Guitar effect pedal with bluetooth connectivity!
